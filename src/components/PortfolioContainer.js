@@ -26,7 +26,7 @@ export default function PortfolioContainer() {
   return (
     <div>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      <main style={{paddingTop: '50px'}}>
+      <main style={{paddingTop: '80px'}}>
       {renderPage()}
       </main>
     </div>
