@@ -1,11 +1,12 @@
 import React from 'react';
+import avatar from "../img/avatars/avatar.jpg";
 
 export default function Blog() {
   return (
     <div>
     <section className="portfolio-block block-intro border-bottom">
             <div className="container">
-                <div className="avatar" style={{backgroundImage: "url(&quot;assets/img/avatars/avatar.jpg&quot;)"}}></div>
+                <div className="avatar" style={{backgroundImage: `url(${avatar})`}}></div>
                 <div className="about-me">
                     <p>Hello! I am <strong>John Smith</strong>. I work as interface and front end developer. I have passion for pixel perfect, minimal and easy to use interfaces.</p><a className="btn btn-outline-primary" role="button" href="#">Hire me</a>
                 </div>

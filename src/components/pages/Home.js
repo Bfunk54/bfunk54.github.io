@@ -2,7 +2,6 @@ import React from 'react';
 import nature5 from "../img/nature/image5.jpg";
 import nature2 from "../img/nature/image2.jpg";
 import tech4 from "../img/tech/image4.jpg";
-import avatar from "../img/avatars/avatar.jpg";
 
 export default function Home() {
   return (
