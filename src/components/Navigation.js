@@ -2,6 +2,7 @@ import React from 'react';
 
 function Nav({ currentPage, handlePageChange }) {
   return (
+    // 696eff  -- navbar color
     <nav className="navbar navbar-dark navbar-expand-lg fixed-top bg-primary portfolio-navbar gradient">
         <div className="container"><a className="navbar-brand logo" href="#">Brand</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navbarNav"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
             <div className="collapse navbar-collapse" id="navbarNav">

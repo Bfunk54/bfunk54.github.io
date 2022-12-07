@@ -1,22 +1,72 @@
 import React from 'react';
+import nature5 from "../img/nature/image5.jpg";
+import nature2 from "../img/nature/image2.jpg";
+import tech4 from "../img/tech/image4.jpg";
+import avatar from "../img/avatars/avatar.jpg";
 
 export default function Home() {
   return (
     <div>
-      <h1>Benjamin Fein</h1>
-      <h3>Full Stack Web Developer</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
-    </div>
+    <section className="portfolio-block block-intro">
+            <div className="container">
+                <div className="avatar" ></div>
+                <div className="about-me">
+                    <p><strong>Benjamin Fein</strong><br></br> A full stack web developer</p><a className="btn btn-outline-primary" role="button" href="#">Contact Me</a>
+                </div>
+            </div>
+        </section>
+        <section className="portfolio-block photography">
+            <div className="container">
+                <div className="row g-0">
+                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img className="img-fluid image" src={nature5}></img></a></div>
+                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img className="img-fluid image" src={nature2}></img></a></div>
+                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img className="img-fluid image" src={tech4}></img></a></div>
+                </div>
+            </div>
+        </section>
+        <section className="portfolio-block call-to-action border-bottom">
+            <div className="container">
+                <div className="d-flex justify-content-center align-items-center content">
+                    <h3>Like what you see?</h3><button className="btn btn-outline-primary btn-lg" type="button">Contact me</button>
+                </div>
+            </div>
+        </section>
+        <section className="portfolio-block skills">
+            <div className="container">
+                <div className="heading">
+                    <h2>Special Skills</h2>
+                </div>
+                <div className="row">
+                    <div className="col-md-4">
+                        <div className="card special-skill-item border-0">
+                            <div className="card-header bg-transparent border-0"><i className="icon ion-ios-star-outline"></i></div>
+                            <div className="card-body">
+                                <h3 className="card-title">Web Design</h3>
+                                <p className="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="card special-skill-item border-0">
+                            <div className="card-header bg-transparent border-0"><i className="icon ion-ios-lightbulb-outline"></i></div>
+                            <div className="card-body">
+                                <h3 className="card-title">Interface Design</h3>
+                                <p className="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="card special-skill-item border-0">
+                            <div className="card-header bg-transparent border-0"><i className="icon ion-ios-gear-outline"></i></div>
+                            <div className="card-body">
+                                <h3 className="card-title">Photography and Print</h3>
+                                <p className="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
   );
 }
