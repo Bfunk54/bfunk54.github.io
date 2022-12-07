@@ -40,7 +40,7 @@ export default function Home() {
                         <div className="card special-skill-item border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-star-outline"></i></div>
                             <div className="card-body">
-                                <h3 className="card-title">Web Design</h3>
+                                <h3 className="card-title">full stack apps</h3>
                                 <p className="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ export default function Home() {
                         <div className="card special-skill-item border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-lightbulb-outline"></i></div>
                             <div className="card-body">
-                                <h3 className="card-title">Interface Design</h3>
+                                <h3 className="card-title">web apps</h3>
                                 <p className="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ export default function Home() {
                         <div className="card special-skill-item border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-gear-outline"></i></div>
                             <div className="card-body">
-                                <h3 className="card-title">Photography and Print</h3>
+                                <h3 className="card-title">back-end server developement</h3>
                                 <p className="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                             </div>
                         </div>
