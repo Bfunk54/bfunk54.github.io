@@ -10,7 +10,7 @@ export default function Home() {
             <div className="container">
                 <div className="avatar" ></div>
                 <div className="about-me">
-                    <p><strong>Benjamin Fein</strong><br></br> A full stack web developer</p><a className="btn btn-outline-primary" role="button" href="#">More About Me</a>
+                    <p>A full stack web developer</p><a className="btn btn-outline-primary" role="button" href="#">More About Me</a>
                 </div>
             </div>
         </section>
