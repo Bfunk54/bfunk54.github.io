@@ -40,8 +40,8 @@ export default function Home() {
                         <div className="card special-skill-item border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-star-outline"></i></div>
                             <div className="card-body">
-                                <h3 className="card-title">full stack apps</h3>
-                                <p className="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                <h3 className="card-title">full stack MERN apps</h3>
+                                <p className="card-text">I can make web applications which utilize a database I can create from scratch and utilize a clean, intuitive and easy-to-use front-end. Here, I have utilized technologies such as MongoDB, Express, Node Js, React, Apollo, Bootstrap, Materialize, and many more.  </p>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ export default function Home() {
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-lightbulb-outline"></i></div>
                             <div className="card-body">
                                 <h3 className="card-title">web apps</h3>
-                                <p className="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                <p className="card-text">I can also create simpler websites which only employ a front-end utitlizing html, css, and javascript.</p>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ export default function Home() {
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-gear-outline"></i></div>
                             <div className="card-body">
                                 <h3 className="card-title">back-end server developement</h3>
-                                <p className="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                <p className="card-text">I can create back-end servers used to store and encrypt secure data. This can also be known as a database or API. Whatever name you know it by, I can create it.</p>
                             </div>
                         </div>
                     </div>
