@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
   return (
     <footer className="footer">
-        <span style={{fontSize: '16px'}}>Ben's Portfolio 2022 </span>
+        <span className='text-light' style={{fontSize: '16px'}}>Ben's Portfolio 2022 </span>
 
         <a style= {{padding: '16px'}} href="https://github.com/Bfunk54" target="_blank" rel="noreferrer">
             <i style={{fontSize: '40px'}} className="bi bi-github"><span style={{fontSize: '10px'}}>github</span></i>

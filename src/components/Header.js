@@ -1,14 +1,16 @@
 import React from 'react';
+import Collapse from 'react-bootstrap/Collapse';
+
 
 function Nav({ currentPage, handlePageChange }) {
   return (
     // 696eff  -- navbar color
-    <nav className="navbar navbar-dark navbar-expand-lg fixed-top bg-primary portfolio-navbar gradient">
-        <div className="container"><a className="navbar-brand logo" href="#">Benjamin Fein</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navbarNav"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
+    <nav className="navbar bg-dark bg-gradient navbar-dark navbar-expand-lg fixed-top bg-primary portfolio-navbar gradient">
+        <div className="container"><Collapse in={true} appear={true} dimension="width" timeout={9999}><a className="navbar-brand logo" style={{fontSize: '28px'}} href="#">Benjamin Fein</a></Collapse><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navbarNav"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto">
-      <li className="nav-item">
-        <a
+                <li className="nav-item">
+                <a
           href="#home"
           onClick={() => handlePageChange('Home')}
 

@@ -2,6 +2,7 @@ import React from 'react';
 import jate from "../img/home/jate1.png";
 import shocase from "../img/home/shocase1.png";
 import foodfind from "../img/home/foodfind1.png";
+import Image from 'react-bootstrap/Image';
 
 const techIconStyle = {
     padding: "5px",
@@ -25,16 +26,16 @@ export default function Home() {
         <section className="portfolio-block photography">
             <div style= {{padding: '20px'}} className="container">
                 <div className="row g-0">
-                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img style= {portfolioPreviewStyle} className="img-fluid image" src={jate}></img></a></div>
-                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img className="img-fluid image" src={shocase}></img></a></div>
-                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img className="img-fluid image" src={foodfind}></img></a></div>
+                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><Image thumbnail={true} style= {portfolioPreviewStyle} className="img-fluid image" src={jate}></Image></a></div>
+                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><Image thumbnail={true} className="img-fluid image" src={shocase}></Image></a></div>
+                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><Image thumbnail={true} className="img-fluid image" src={foodfind}></Image></a></div>
                 </div>
             </div>
         </section>
         <section className="portfolio-block call-to-action border-bottom">
             <div className="container">
                 <div style= {{paddingBottom: '20px'}} className="d-flex justify-content-left content">
-                    <h3 style= {{paddingRight: '20px'}}>Like what you see?</h3><button className="btn btn-outline-primary btn-lg" type="button">Contact me</button>
+                    <h4 style= {{paddingRight: '20px'}}>Like what you see?</h4><button className="btn btn-outline-primary btn-sm" type="button">Contact me</button>
                 </div>
             </div>
         </section>
@@ -45,7 +46,7 @@ export default function Home() {
                 </div>
                 <div className="row">
                     <div className="col-md-4">
-                        <div className="card special-skill-item border-0">
+                        <div className="card bg-transparent special-skill-item border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-star-outline"></i></div>
                             <div className="card-body">
                                 <h3 className="card-title">full stack MERN apps</h3>
@@ -54,7 +55,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="card special-skill-item border-0">
+                        <div className="card bg-transparent special-skill-item border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-lightbulb-outline"></i></div>
                             <div className="card-body">
                                 <h3 className="card-title">web apps</h3>
@@ -63,7 +64,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="card special-skill-item border-0">
+                        <div className="card bg-transparent special-skill-item border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-gear-outline"></i></div>
                             <div className="card-body">
                                 <h3 className="card-title">back-end server developement</h3>
@@ -77,7 +78,7 @@ export default function Home() {
         <section className="portfolio-block technologies">
             <div style= {{paddingTop: '20px'}} className="container">
                 <div className="heading">
-                    <h2>Technologies I Use</h2>
+                    <h2 className='text-light'>Technologies I Use</h2>
                 </div>
                 <div style= {{padding: '15px'}} align="center" className='d-flex flex-wrap justify-content-between'>
 	<code><img style= {techIconStyle} height="100" src="https://user-images.githubusercontent.com/25181517/192107856-aa92c8b1-b615-47c3-9141-ed0d29a90239.png" alt="GraphQL" title="GraphQL" /></code>
