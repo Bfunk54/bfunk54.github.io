@@ -13,7 +13,7 @@ export default function PortfolioContainer() {
   var background = {
     backgroundImage: `url(${backgroundImage})`,
     repeat: 'no-repeat',
-    backgroundSize: 'cover'
+    backgroundSize: 'cover',
  }
 
   const [currentPage, setCurrentPage] = useState('Home');

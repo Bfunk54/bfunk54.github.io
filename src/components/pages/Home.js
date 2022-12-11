@@ -3,6 +3,16 @@ import jate from "../img/home/jate1.png";
 import shocase from "../img/home/shocase1.png";
 import foodfind from "../img/home/foodfind1.png";
 import Image from 'react-bootstrap/Image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+    faBootstrap,
+    faCss3Alt,
+    faGitAlt,
+    faHtml5,
+    faJsSquare,
+    faReact,
+  } from '@fortawesome/free-brands-svg-icons'
+import './Home.css'
 
 const techIconStyle = {
     padding: "5px",
@@ -16,11 +26,36 @@ export default function Home() {
   return (
     <div>
     <section className="portfolio-block block-intro">
-            <div className="container">
-                <div className="avatar" ></div>
+            <div className="cubeContainer container">
                 <div className="about-me">
-                    <p>A full stack web developer</p><a className="btn btn-outline-primary btn-sm" role="button" href="#">Full Portfolio</a>
+                <div style={{textAlign: 'center', marginBottom: '10px', width: '70%', height: '100px', backgroundColor: 'rgba(245, 245, 245, 0.6)'}} className="heading card special-skill-item border-0">
+                    <h1>A full stack MERN web developer.</h1>
+                    </div>
                 </div>
+                <div className='cube'>
+                <div className="stage-cube-cont">
+          <div className="cubespinner">
+            <div className="face1">
+              <FontAwesomeIcon icon={faBootstrap} color="#a600dd;" />
+            </div>
+            <div className="face2">
+              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+            </div>
+            <div className="face3">
+              <FontAwesomeIcon icon={faCss3Alt} color="#28A4D9" />
+            </div>
+            <div className="face4">
+              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+            </div>
+            <div className="face5">
+              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+            </div>
+            <div className="face6">
+              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+            </div>
+          </div>
+        </div>
+                    </div>
             </div>
         </section>
         <section className="portfolio-block photography">
@@ -34,28 +69,30 @@ export default function Home() {
         </section>
         <section className="portfolio-block call-to-action border-bottom">
             <div className="container">
+           
                 <div style= {{paddingBottom: '20px'}} className="d-flex justify-content-left content">
-                    <h4 style= {{paddingRight: '20px'}}>Like what you see?</h4><button className="btn btn-outline-primary btn-sm" type="button">Contact me</button>
+                    <h4 style= {{paddingTop: '3px', textAlign: 'center', marginRight: '20px', marginBottom: '10px', width: '17%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.45)'}} className='card special-skill-item border-0'>Like what you see?</h4>
+                    <button className="btn btn-bd-primary btn" type="button">Contact me</button>
                 </div>
             </div>
         </section>
-        <section className="portfolio-block skills border-bottom">
+        <section style= {{paddingBottom: '20px'}} className="portfolio-block skills border-bottom">
             <div style= {{paddingTop: '20px'}} className="container">
-                <div className="heading">
+                <div style={{textAlign: 'center', marginBottom: '10px', width: '20%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.75)'}} className="heading card special-skill-item border-0">
                     <h2>Special Skills</h2>
                 </div>
                 <div className="row">
                     <div className="col-md-4">
-                        <div className="card bg-transparent special-skill-item border-0">
+                        <div style={{backgroundColor: 'rgba(245, 245, 245, 0.6)'}} className="card special-skill-item border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-star-outline"></i></div>
                             <div className="card-body">
                                 <h3 className="card-title">full stack MERN apps</h3>
-                                <p className="card-text">I can make web applications which utilize a database I can create from scratch and utilize a clean, intuitive and easy-to-use front-end. Here, I have utilized technologies such as MongoDB, Express, Node Js, React, Apollo, Bootstrap, Materialize, and many more.  </p>
+                                <p className="card-text">I can make web applications which utilize a database I can create from scratch and utilize a clean, intuitive and easy-to-use front-end. Here, I have utilized technologies such as MongoDB, Express, Node Js, React, GraphQL, and many more.  </p>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="card bg-transparent special-skill-item border-0">
+                        <div style={{backgroundColor: 'rgba(245, 245, 245, 0.6)'}} className="card special-skill-item border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-lightbulb-outline"></i></div>
                             <div className="card-body">
                                 <h3 className="card-title">web apps</h3>
@@ -64,7 +101,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="card bg-transparent special-skill-item border-0">
+                        <div style={{backgroundColor: 'rgba(245, 245, 245, 0.6)'}} className="card special-skill-item border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-gear-outline"></i></div>
                             <div className="card-body">
                                 <h3 className="card-title">back-end server developement</h3>
@@ -77,8 +114,8 @@ export default function Home() {
         </section>
         <section className="portfolio-block technologies">
             <div style= {{paddingTop: '20px'}} className="container">
-                <div className="heading">
-                    <h2 className='text-light'>Technologies I Use</h2>
+            <div style={{textAlign: 'center', marginBottom: '10px', width: '30%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.75)'}} className="heading card special-skill-item border-0">
+                    <h2>Technologies I Use</h2>
                 </div>
                 <div style= {{padding: '15px'}} align="center" className='d-flex flex-wrap justify-content-between'>
 	<code><img style= {techIconStyle} height="100" src="https://user-images.githubusercontent.com/25181517/192107856-aa92c8b1-b615-47c3-9141-ed0d29a90239.png" alt="GraphQL" title="GraphQL" /></code>
