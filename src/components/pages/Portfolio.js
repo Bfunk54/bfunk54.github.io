@@ -11,6 +11,14 @@ import nature7 from '../img/nature/image7.jpg';
 import nature8 from '../img/nature/image8.jpg';
 import nature9 from '../img/nature/image9.jpg';
 import USPostalPrinting from '../img/portfolio/USPostalPrinting.png';
+import jate from "../img/portfolio/jate1.png";
+import shocase from "../img/portfolio/shocase1.png";
+import foodfind from "../img/portfolio/foodfind1.png";
+import ProgrammersHeaven from '../img/portfolio/ProgrammersHeaven.png';
+import NoteBuddy from '../img/portfolio/NoteBuddy.png';
+import ZippyWeather from '../img/portfolio/ZippyWeather.png';
+import SocialApi from '../img/portfolio/mongodb-socialmediaapi.png';
+import OneShop from '../img/portfolio/OneShop.png';
 
 
 export default function Portfolio() {
@@ -43,29 +51,31 @@ export default function Portfolio() {
       <section className="portfolio-block projects-with-sidebar">
             <div className="container">
                 <div className="heading">
+                  <div style={{textAlign: 'center', marginBottom: '10px', width: '17%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.6)', borderRadius: '20px'}}>
                     <h2>Recent Work</h2>
+                    </div>
                 </div>
                 <div className="row">
                     <div className="col-md-3">
-                        <ul className="list-unstyled sidebar">
+                        {/* <ul className="list-unstyled sidebar">
                             <li><a className="active" href="#">All</a></li>
                             <li><a href="#">React</a></li>
                             <li><a href="#">Clean</a></li>
                             <li><a href="#">Colors</a></li>
                             <li><a href="#">Portfolio</a></li>
-                        </ul>
+                        </ul> */}
                     </div>
                     <div className="col-md-9">
                         <div className="row">
                             <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="https://us-postal-printing.herokuapp.com/"><img className="img-fluid image scale-on-hover" src={USPostalPrinting}></img></a></div>
-                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="#"><img className="img-fluid image scale-on-hover" src={nature2}></img></a></div>
-                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="#"><img className="img-fluid image scale-on-hover" src={nature3}></img></a></div>
-                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="#"><img className="img-fluid image scale-on-hover" src={nature4}></img></a></div>
-                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="#"><img className="img-fluid image scale-on-hover" src={nature5}></img></a></div>
-                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="#"><img className="img-fluid image scale-on-hover" src={nature6}></img></a></div>
-                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="#"><img className="img-fluid image scale-on-hover" src={nature7}></img></a></div>
-                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="#"><img className="img-fluid image scale-on-hover" src={nature8}></img></a></div>
-                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="#"><img className="img-fluid image scale-on-hover" src={nature9}></img></a></div>
+                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="https://shocase.herokuapp.com/"><img className="img-fluid image scale-on-hover" src={shocase}></img></a></div>
+                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="https://foodfind.tech/"><img className="img-fluid image scale-on-hover" src={foodfind}></img></a></div>
+                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="https://jate-anothertexteditor.herokuapp.com/"><img className="img-fluid image scale-on-hover" src={jate}></img></a></div>
+                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="https://programmersheaven.herokuapp.com/"><img className="img-fluid image scale-on-hover" src={ProgrammersHeaven}></img></a></div>
+                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="https://the-note-buddy.herokuapp.com/"><img className="img-fluid image scale-on-hover" src={NoteBuddy}></img></a></div>
+                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="https://github.com/Bfunk54/OneShop/"><img className="img-fluid image scale-on-hover" src={OneShop}></img></a></div>
+                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="https://github.com/Bfunk54/MongoDB-SocialMediaAPI/"><img className="img-fluid image scale-on-hover" src={SocialApi}></img></a></div>
+                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="https://bfunk54.github.io/ZippyWeather/"><img className="img-fluid image scale-on-hover" src={ZippyWeather}></img></a></div>
                         </div>
                     </div>
                 </div>

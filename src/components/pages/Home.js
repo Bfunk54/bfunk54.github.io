@@ -1,7 +1,8 @@
 import React from 'react';
-import jate from "../img/home/jate1.png";
-import shocase from "../img/home/shocase1.png";
-import foodfind from "../img/home/foodfind1.png";
+import jate from "../img/portfolio/jate1.png";
+import shocase from "../img/portfolio/shocase1.png";
+import foodfind from "../img/portfolio/foodfind1.png";
+import USPostalPrinting from '../img/portfolio/USPostalPrinting.png';
 import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -61,9 +62,9 @@ export default function Home() {
         <section className="portfolio-block photography">
             <div style= {{padding: '20px'}} className="container">
                 <div className="row g-0">
-                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><Image thumbnail={true} style= {portfolioPreviewStyle} className="img-fluid image" src={jate}></Image></a></div>
-                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><Image thumbnail={true} className="img-fluid image" src={shocase}></Image></a></div>
-                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><Image thumbnail={true} className="img-fluid image" src={foodfind}></Image></a></div>
+                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="https://foodfind.tech/"><Image thumbnail={true} style= {portfolioPreviewStyle} className="img-fluid image" src={foodfind}></Image></a></div>
+                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="https://shocase.herokuapp.com/"><Image thumbnail={true} className="img-fluid image" src={shocase}></Image></a></div>
+                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="https://us-postal-printing.herokuapp.com/"><Image thumbnail={true} className="img-fluid image" src={USPostalPrinting}></Image></a></div>
                 </div>
             </div>
         </section>
