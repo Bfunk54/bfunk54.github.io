@@ -14,6 +14,11 @@ export default function PortfolioContainer() {
     backgroundImage: `url(${backgroundImage})`,
     repeat: 'no-repeat',
     backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundAttachment: 'fixed',
+    height: '100%',
+    width: '100vw',
+    zIndex: '-1',
  }
 
   const [currentPage, setCurrentPage] = useState('Home');
@@ -36,7 +41,7 @@ export default function PortfolioContainer() {
   return (
     <div style={background}>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      <main style={{paddingTop: '80px'}}>
+      <main style={{paddingTop: '80px', height: '100%'}}>
       {renderPage()}
       </main>
       <Footer />

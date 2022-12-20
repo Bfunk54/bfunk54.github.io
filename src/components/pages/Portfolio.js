@@ -19,6 +19,7 @@ import NoteBuddy from '../img/portfolio/NoteBuddy.png';
 import ZippyWeather from '../img/portfolio/ZippyWeather.png';
 import SocialApi from '../img/portfolio/mongodb-socialmediaapi.png';
 import OneShop from '../img/portfolio/OneShop.png';
+import './Home.css'
 
 
 export default function Portfolio() {
@@ -49,9 +50,9 @@ export default function Portfolio() {
   return (
     <div>
       <section className="portfolio-block projects-with-sidebar">
-            <div className="container">
+            <div style={{height: '82.8vh'}} className="container">
                 <div className="heading">
-                  <div style={{textAlign: 'center', marginBottom: '10px', width: '17%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.6)', borderRadius: '20px'}}>
+                  <div style={{textAlign: 'center', marginBottom: '10px', width: '20%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.6)', borderRadius: '20px'}}>
                     <h2>Recent Work</h2>
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import './Home.css';
 
 export default function Contact() {
   const form = useRef();
@@ -28,8 +29,8 @@ export default function Contact() {
   };
   return (
     <section className="portfolio-block contact">
-    <div className="container">
-        <div className="heading">
+    <div style={{height: '82.8vh'}} className="container">
+        <div style={{textAlign: 'center', marginBottom: '10px', width: '20%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.6)', borderRadius: '20px'}} className="heading">
             <h2>Contact me</h2>
         </div>
         <form ref={form} onSubmit={sendEmail}>

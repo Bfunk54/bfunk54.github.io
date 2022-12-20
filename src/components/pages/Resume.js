@@ -1,5 +1,6 @@
 import React from 'react';
 import avatar from "../img/avatars/avatar.jpg";
+import './Home.css'
 
 export default function Blog() {
   return (
@@ -8,7 +9,7 @@ export default function Blog() {
             <div className="container">
                 <div className="avatar" style={{backgroundImage: `url(${avatar})`}}></div>
                 <div className="about-me">
-                    <p>Hello! I am <strong>Benjamin Fein</strong>. I am a MERN stack developer with a strong passion for creating intuitive, user-friendly UI's and applications to help people and the world as a whole.</p><a className="btn btn-outline-primary" role="button" href="#">Hire me</a>
+                    <p>Hello! I am <strong>Benjamin Fein</strong>. I am a MERN stack developer with a strong passion for creating intuitive, user-friendly UI's and applications to help people and the world as a whole.</p><button className="btn btn-bd-primary btn" type="button">Hire me</button>
                 </div>
             </div>
         </section>

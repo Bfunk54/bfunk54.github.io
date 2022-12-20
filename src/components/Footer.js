@@ -1,8 +1,9 @@
 import React from 'react';
+import { MDBFooter } from 'mdb-react-ui-kit';
 
-function Footer() {
+function TheFooter() {
   return (
-    <footer className="footer">
+    <MDBFooter style={{position: 'sticky'}} className="footer">
         <span className='text-light' style={{fontSize: '16px'}}>Ben's Portfolio 2022 </span>
 
         <a style= {{padding: '16px', paddingBottom: 0}} href="https://github.com/Bfunk54" target="_blank" rel="noreferrer">
@@ -16,7 +17,7 @@ function Footer() {
         <a style= {{padding: '16px', paddingBottom: 0}} href="https://twitter.com/ben_fein" target="_blank" rel="noreferrer">
             <i style={{fontSize: '40px'}} className="bi bi-twitter"><span style={{fontSize: '10px'}}>twitter</span></i>
         </a>
-    </footer>
+    </MDBFooter>
     )};
 
-export default Footer;
+export default TheFooter;
