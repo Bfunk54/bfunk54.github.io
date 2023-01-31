@@ -1,12 +1,9 @@
 import React from 'react';
-import avatar from "../img/avatars/avatar.jpg";
 import './Home.css'
-import ResumeImg from '../img/resume/BenjaminFeinResume-Small.png'
 import ResumeImgLarge from '../img/resume/BenjaminFeinResume-Large.png'
 import Resume from '../img/resume/BenjaminFeinResume.pdf'
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
-import ReactImageZoom from 'react-image-zoom';
 import InnerImageZoom from 'react-inner-image-zoom';
 import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
 

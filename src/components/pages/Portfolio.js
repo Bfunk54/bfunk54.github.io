@@ -1,15 +1,6 @@
 import { apply as applySpring, useSpring, a, interpolater } from 'react-spring'
 import { extend as applyThree, Canvas, useFrame, useThree } from 'react-three-fiber'
 import React, { useState, useRef, useEffect, useCallback, useMemo } from 'react'
-import nature1 from '../img/nature/image1.jpg';
-import nature2 from '../img/nature/image2.jpg';
-import nature3 from '../img/nature/image3.jpg';
-import nature4 from '../img/nature/image4.jpg';
-import nature5 from '../img/nature/image5.jpg';
-import nature6 from '../img/nature/image6.jpg';
-import nature7 from '../img/nature/image7.jpg';
-import nature8 from '../img/nature/image8.jpg';
-import nature9 from '../img/nature/image9.jpg';
 import USPostalPrinting from '../img/portfolio/USPostalPrinting.png';
 import jate from "../img/portfolio/jate1.png";
 import shocase from "../img/portfolio/shocase1.png";
@@ -19,6 +10,7 @@ import NoteBuddy from '../img/portfolio/NoteBuddy.png';
 import ZippyWeather from '../img/portfolio/ZippyWeather.png';
 import SocialApi from '../img/portfolio/mongodb-socialmediaapi.png';
 import OneShop from '../img/portfolio/OneShop.png';
+import InnerImageZoom from 'react-inner-image-zoom';
 import './Home.css'
 
 
@@ -68,7 +60,11 @@ export default function Portfolio() {
                     </div>
                     <div className="col-md-9">
                         <div className="row">
-                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="https://us-postal-printing.herokuapp.com/"><img className="img-fluid image scale-on-hover" src={USPostalPrinting}></img></a></div>
+                            <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="https://us-postal-printing.herokuapp.com/"><InnerImageZoom className="img-fluid image scale-on-hover" hasSpacer= {true} 
+            zoomType="hover"
+            zoomPreload={true}
+            fullscreenOnMobile={true} 
+            zoomScale={.22} src={USPostalPrinting} zoomSrc={USPostalPrinting}/></a></div>
                             <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="https://shocase.herokuapp.com/"><img className="img-fluid image scale-on-hover" src={shocase}></img></a></div>
                             <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="https://foodfind.tech/"><img className="img-fluid image scale-on-hover" src={foodfind}></img></a></div>
                             <div className="col-md-6 col-lg-4 project-sidebar-card"><a href="https://jate-anothertexteditor.herokuapp.com/"><img className="img-fluid image scale-on-hover" src={jate}></img></a></div>
