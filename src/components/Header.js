@@ -7,7 +7,7 @@ import './pages/Home.css'
 function Nav({ currentPage, handlePageChange }) {
   return (
     // 696eff  -- navbar color
-    <nav style= {{backgroundColor: 'rgba(245, 245, 245, 0.4)'}} className="navbar navbar-dark navbar-expand-lg fixed-top portfolio-navbar gradient">
+    <nav style= {{backgroundColor: 'rgba(245, 245, 245, 0.65)'}} className="navbar navbar-dark navbar-expand-lg fixed-top portfolio-navbar gradient">
         <div className="container"><Collapse in={true} appear={true} dimension="width" timeout={9999}><a className="navbar-brand logo" style={{fontSize: '28px', color: 'black', fontWeight: 500}} href="#">Benjamin Fein</a></Collapse><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navbarNav"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto">

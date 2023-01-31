@@ -72,7 +72,7 @@ export default function Home() {
             <div className="container">
            
                 <div style= {{paddingBottom: '20px'}} className="d-flex justify-content-left content">
-                    <h4 style= {{paddingTop: '3px', textAlign: 'center', marginRight: '20px', marginBottom: '10px', width: '17%', height: '60px', backgroundColor: 'rgba(245, 245, 245, 0.45)'}} className='card special-skill-item border-0'>Like what you see?</h4>
+                    <h4 style= {{paddingTop: '3px', textAlign: 'center', marginRight: '20px', marginBottom: '10px', width: '17%', height: '60px', backgroundColor: 'rgba(245, 245, 245, 0.6)'}} className='card special-skill-item border-0'>Like what you see?</h4>
                     <button className="btn btn-bd-primary btn" type="button">Contact me</button>
                 </div>
             </div>
