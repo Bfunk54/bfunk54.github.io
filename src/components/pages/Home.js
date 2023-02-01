@@ -28,14 +28,14 @@ export default function Home() {
     <div>
     <section className="portfolio-block block-intro">
             <div className="cubeContainer container">
-                <div className="about-me">
-                <div style={{textAlign: 'center', marginBottom: '10px', width: '70%', height: '100px', backgroundColor: 'rgba(245, 245, 245, 0.6)'}} className="heading card special-skill-item border-0">
+                <div className="about-me" style={{marginLeft: 80, marginBottom: -20}}>
+                <div style={{textAlign: 'center', marginBottom: '10px', width: '70%', height: '100px', backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className="heading card special-skill-item border-0">
                     <h1>A full stack MERN web developer.</h1>
                     </div>
                 </div>
                 <div className='cube'>
                 <div className="stage-cube-cont">
-          <div className="cubespinner">
+          <div className="cubespinner" style={{marginTop: 60}}>
             <div className="face1">
               <FontAwesomeIcon icon={faBootstrap} color="#a600dd;" />
             </div>
@@ -72,19 +72,19 @@ export default function Home() {
             <div className="container">
            
                 <div style= {{paddingBottom: '20px'}} className="d-flex justify-content-left content">
-                    <h4 style= {{paddingTop: '3px', textAlign: 'center', marginRight: '20px', marginBottom: '10px', width: '17%', height: '60px', backgroundColor: 'rgba(245, 245, 245, 0.6)'}} className='card special-skill-item border-0'>Like what you see?</h4>
+                    <h4 style= {{ marginTop: '8px', paddingTop: '5px', textAlign: 'center', marginRight: '20px', marginBottom: '10px', width: '17%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className='card special-skill-item border-0'>Like what you see?</h4>
                     <button className="btn btn-bd-primary btn" type="button">Contact me</button>
                 </div>
             </div>
         </section>
         <section style= {{paddingBottom: '20px'}} className="portfolio-block skills border-bottom">
             <div style= {{paddingTop: '20px'}} className="container">
-                <div style={{textAlign: 'center', marginBottom: '10px', width: '20%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.75)'}} className="heading card special-skill-item border-0">
+                <div style={{textAlign: 'center', marginBottom: '10px', width: '20%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className="heading card special-skill-item border-0">
                     <h2>Special Skills</h2>
                 </div>
                 <div className="row">
                     <div className="col-md-4">
-                        <div style={{backgroundColor: 'rgba(245, 245, 245, 0.6)'}} className="card special-skill-item border-0">
+                        <div style={{backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className="card special-skill-item border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-star-outline"></i></div>
                             <div className="card-body">
                                 <h3 className="card-title">full stack MERN apps</h3>
@@ -93,7 +93,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div style={{backgroundColor: 'rgba(245, 245, 245, 0.6)'}} className="card special-skill-item border-0">
+                        <div style={{backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className="card special-skill-item border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-lightbulb-outline"></i></div>
                             <div className="card-body">
                                 <h3 className="card-title">web apps</h3>
@@ -102,7 +102,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div style={{backgroundColor: 'rgba(245, 245, 245, 0.6)'}} className="card special-skill-item border-0">
+                        <div style={{backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className="card special-skill-item border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-gear-outline"></i></div>
                             <div className="card-body">
                                 <h3 className="card-title">back-end server developement</h3>
@@ -115,7 +115,7 @@ export default function Home() {
         </section>
         <section className="portfolio-block technologies">
             <div style= {{paddingTop: '20px'}} className="container">
-            <div style={{textAlign: 'center', marginBottom: '10px', width: '30%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.75)'}} className="heading card special-skill-item border-0">
+            <div style={{textAlign: 'center', marginBottom: '10px', width: '30%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className="heading card special-skill-item border-0">
                     <h2>Technologies I Use</h2>
                 </div>
                 <div style= {{padding: '15px'}} align="center" className='d-flex flex-wrap justify-content-between'>

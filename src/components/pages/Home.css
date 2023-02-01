@@ -48,7 +48,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 18px 0px rgb(255, 219, 228);
+    box-shadow: 0 0 16px 0px rgba(255, 219, 228, 0.404);
 }
 .cubespinner .face1 {
     transform: translateZ(65px);
