@@ -3,8 +3,8 @@ import { MDBFooter } from 'mdb-react-ui-kit';
 
 function TheFooter() {
   return (
-    <MDBFooter style={{position: 'sticky'}} className="footer">
-        <span className='text-light' style={{fontSize: '16px'}}>Ben's Portfolio 2022 </span>
+    <MDBFooter style={{paddingLeft: 20, position: 'sticky'}} className="footer">
+        <span className='text-light' style={{fontSize: '16px'}}>Ben's Portfolio 2023 </span>
 
         <a style= {{padding: '16px', paddingBottom: 0}} href="https://github.com/Bfunk54" target="_blank" rel="noreferrer">
             <i style={{fontSize: '40px'}} className="bi bi-github"><span style={{fontSize: '10px'}}>github</span></i>

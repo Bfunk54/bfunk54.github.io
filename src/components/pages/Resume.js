@@ -10,7 +10,7 @@ import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
 export default function Blog() {
         const renderTooltip = (props) => (
           <Tooltip id="button-tooltip" {...props}>
-            Click here to download
+            Click anywhere to download
           </Tooltip>
         );
 
