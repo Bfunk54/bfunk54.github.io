@@ -23,6 +23,7 @@ import ZippyWeather from "../img/portfolio/ZippyWeather.png";
 import SocialApi from "../img/portfolio/mongodb-socialmediaapi.png";
 import OneShop from "../img/portfolio/OneShop.png";
 import InnerImageZoom from "react-inner-image-zoom";
+import Github from '../img/github/github-mark.png'
 import "./Home.css";
 
 export default function Portfolio() {
@@ -97,6 +98,7 @@ export default function Portfolio() {
                   <Card.Text style={{fontSize: '14px'}}>
                     A full MERN stack web app made for a postal & printing
                     company located in south Florida.
+                    <br/><a href="https://github.com/Mateo-Wallace/US-Postal-Printing"><img style={{height: 35, width: 35}} src={Github}/>Github Repo</a>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -121,6 +123,7 @@ export default function Portfolio() {
                   <Card.Body>
                   <Card.Text style={{fontSize: '14px'}}>
                     A full stack social media web app for people to share their favorite Anime and discover new ones using a MySQL database.
+                    <br/><a href="https://github.com/Bfunk54/ShoCase"><img style={{height: 35, width: 35}} src={Github}/>Github Repo</a>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -145,6 +148,7 @@ export default function Portfolio() {
                   <Card.Body>
                   <Card.Text style={{fontSize: '14px'}}>
                     A web app allowing the user to discover new recipes at the click of a button from a database of millions of different and interesting recipes.
+                    <br/><a href="https://github.com/harrj396/FoodFind"><img style={{height: 35, width: 35}} src={Github}/>Github Repo</a>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -168,8 +172,8 @@ export default function Portfolio() {
                   </a>
                   <Card.Body>
                   <Card.Text style={{fontSize: '14px'}}>
-                    A full MERN stack web app made for a postal & printing
-                    company located in south Florida.
+                  This text editor allows you write out text (javascript will be color coded) and all text will be automatically saved to a database even if you lose internet or your computer shuts down. This app is also downloadable and can be installed as a stand-alone application.
+                    <br/><a href="https://github.com/Bfunk54/JATE-JustAnotherTextEditor"><img style={{height: 35, width: 35}} src={Github}/>Github Repo</a>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -194,6 +198,7 @@ export default function Portfolio() {
                   <Card.Body>
                   <Card.Text style={{fontSize: '14px'}}>
                     A forum web app which uses a MySQL database to store login information for users, post data, comments data, and it's all routed to look good out on an html page!
+                    <br/><a href="https://github.com/Bfunk54/ProgrammersHeaven"><img style={{height: 35, width: 35}} src={Github}/>Github Repo</a>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -218,6 +223,7 @@ export default function Portfolio() {
                   <Card.Body>
                   <Card.Text style={{fontSize: '14px'}}>
                   A web app that fills all of your note taking needs! It uses a MySQL database holding all of your notes and the app can dynamically add and delete your notes in the database.
+                  <br/><a href="https://github.com/Bfunk54/NoteBuddy"><img style={{height: 35, width: 35}} src={Github}/>Github Repo</a>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -242,6 +248,7 @@ export default function Portfolio() {
                   <Card.Body>
                   <Card.Text style={{fontSize: '14px'}}>
                     A working MySQL database for a hypothetical e-commerce website.
+                    <br/><a href="https://github.com/Bfunk54/OneShop"><img style={{height: 35, width: 35}} src={Github}/>Github Repo</a>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -266,6 +273,7 @@ export default function Portfolio() {
                   <Card.Body>
                   <Card.Text style={{fontSize: '14px'}}>
                     A NoSQL social media API ready for implementation. It allows users, posts, and comments to those posts along with friends, friend counts and comment/reaction counts.
+                    <br/><a href="https://github.com/Bfunk54/MongoDB-SocialMediaAPI"><img style={{height: 35, width: 35}} src={Github}/>Github Repo</a>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -290,6 +298,7 @@ export default function Portfolio() {
                   <Card.Body>
                   <Card.Text style={{fontSize: '14px'}}>
                   A simple weather dashboard to show you the current weather data as well as a five day forecast for any city you want!
+                  <br/><a href="https://github.com/Bfunk54/ZippyWeather"><img style={{height: 35, width: 35}} src={Github}/>Github Repo</a>
                   </Card.Text>
                 </Card.Body>
               </Card>

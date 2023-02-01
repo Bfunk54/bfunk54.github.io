@@ -31,7 +31,7 @@ function Nav({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('Portfolio')}
 
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
-          style={{color: 'white'}}
+          
         >
           Portfolio
         </a>
@@ -44,7 +44,7 @@ function Nav({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('Resume')}
 
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-          style={{color: 'white'}}
+          
         >
           Resume
         </a>
@@ -56,7 +56,7 @@ function Nav({ currentPage, handlePageChange }) {
           href="#contact"
           onClick={() => handlePageChange('Contact')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-          style={{color: 'white'}}
+          
         >
           Contact
         </a>

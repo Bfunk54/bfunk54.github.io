@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import './Home.css';
+import "./Home.css";
 
 export default function Contact() {
   const form = useRef();
@@ -29,18 +29,101 @@ export default function Contact() {
   };
   return (
     <section className="portfolio-block contact">
-    <div style={{height: '82.8vh'}} className="container">
-        <div style={{textAlign: 'center', marginBottom: '10px', width: '20%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.6)', borderRadius: '20px'}} className="heading">
-            <h2>Contact me</h2>
+      <div style={{ height: "82.8vh" }} className="container">
+        <div
+          style={{
+            textAlign: "center",
+            marginBottom: "25px",
+            width: "20%",
+            height: "50px",
+            backgroundColor: "rgba(245, 245, 245, 0.6)",
+            borderRadius: "20px",
+          }}
+          className="heading"
+        >
+          <h1>Contact Me</h1>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-            <div className="mb-3"><label className="form-label" htmlFor="name">Your Name</label><input className="form-control item" type="text" id="name"></input></div>
-            <div className="mb-3"><label className="form-label" htmlFor="subject">Subject</label><input className="form-control item" type="text" id="subject"></input></div>
-            <div className="mb-3"><label className="form-label" htmlFor="email">Email</label><input className="form-control item" type="email" id="email"></input></div>
-            <div className="mb-3"><label className="form-label" htmlFor="message">Message</label><textarea className="form-control item" id="message"></textarea></div>
-            <div className="mb-3"><button className="btn btn-bd-primary btn" style={{width: '100%'}} type="submit">Submit Form</button></div>
+          <div className="mb-3">
+            <label
+              style={{
+                textAlign: "center",
+                marginBottom: "10px",
+                width: "8%",
+                height: "25px",
+                backgroundColor: "rgba(245, 245, 245, 0.6)",
+                borderRadius: "20px",
+              }}
+              className="form-label"
+              htmlFor="name"
+            >
+              Your Name
+            </label>
+            <input className="form-control item" type="text" id="name"></input>
+          </div>
+          <div className="mb-3">
+            <label 
+            style={{
+              textAlign: "center",
+              marginBottom: "10px",
+              width: "8%",
+              height: "25px",
+              backgroundColor: "rgba(245, 245, 245, 0.6)",
+              borderRadius: "20px",
+            }}
+            className="form-label" htmlFor="subject">
+              Subject
+            </label>
+            <input
+              className="form-control item"
+              type="text"
+              id="subject"
+            ></input>
+          </div>
+          <div className="mb-3">
+            <label 
+            style={{
+              textAlign: "center",
+              marginBottom: "10px",
+              width: "8%",
+              height: "25px",
+              backgroundColor: "rgba(245, 245, 245, 0.6)",
+              borderRadius: "20px",
+            }}
+            className="form-label" htmlFor="email">
+              Email
+            </label>
+            <input
+              className="form-control item"
+              type="email"
+              id="email"
+            ></input>
+          </div>
+          <div className="mb-3">
+            <label style={{
+                textAlign: "center",
+                marginBottom: "10px",
+                width: "8%",
+                height: "25px",
+                backgroundColor: "rgba(245, 245, 245, 0.6)",
+                borderRadius: "20px",
+              }}
+              className="form-label" htmlFor="message">
+              Message
+            </label>
+            <textarea className="form-control item" id="message"></textarea>
+          </div>
+          <div className="mb-3">
+            <button
+              className="btn btn-bd-primary btn"
+              style={{ width: "100%" }}
+              type="submit"
+            >
+              Submit Form
+            </button>
+          </div>
         </form>
-    </div>
-</section>
+      </div>
+    </section>
   );
 }
