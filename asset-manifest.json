@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.560bd94c.css",
-    "main.js": "/React-Portfolio/static/js/main.3bef95ee.js",
+    "main.css": "/React-Portfolio/static/css/main.9201df7c.css",
+    "main.js": "/React-Portfolio/static/js/main.415af39e.js",
     "static/media/foodfind1.png": "/React-Portfolio/static/media/foodfind1.7069216598af54251b70.png",
     "static/media/jate1.png": "/React-Portfolio/static/media/jate1.ae703e398162810894a3.png",
     "static/media/shocase1.png": "/React-Portfolio/static/media/shocase1.a8c5daf2fc3ae00b69f1.png",
@@ -18,11 +18,11 @@
     "static/media/bootstrap-icons.woff2?": "/React-Portfolio/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "static/media/BenjaminFeinResume.pdf": "/React-Portfolio/static/media/BenjaminFeinResume.50d2adc77ba5c8f96cee.pdf",
     "index.html": "/React-Portfolio/index.html",
-    "main.560bd94c.css.map": "/React-Portfolio/static/css/main.560bd94c.css.map",
-    "main.3bef95ee.js.map": "/React-Portfolio/static/js/main.3bef95ee.js.map"
+    "main.9201df7c.css.map": "/React-Portfolio/static/css/main.9201df7c.css.map",
+    "main.415af39e.js.map": "/React-Portfolio/static/js/main.415af39e.js.map"
   },
   "entrypoints": [
-    "static/css/main.560bd94c.css",
-    "static/js/main.3bef95ee.js"
+    "static/css/main.9201df7c.css",
+    "static/js/main.415af39e.js"
   ]
 }
