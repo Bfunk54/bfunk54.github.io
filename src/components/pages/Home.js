@@ -29,7 +29,7 @@ export default function Home() {
     <section className="portfolio-block block-intro">
             <div className="cubeContainer container">
                 <div className="about-me" style={{marginLeft: 80, marginBottom: -20}}>
-                <div style={{textAlign: 'center', marginBottom: '10px', width: '70%', height: '100px', backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className="heading card special-skill-item border-0">
+                <div style={{textAlign: 'center', marginBottom: '10px', width: '70%', height: '100px', backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className="heading card special-skill-item border-0 fullStack">
                     <h1>A full stack MERN web developer.</h1>
                     </div>
                 </div>
@@ -62,9 +62,9 @@ export default function Home() {
         <section className="portfolio-block photography">
             <div style= {{padding: '20px'}} className="container">
                 <div className="row g-0">
-                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="https://foodfind.tech/"><Image thumbnail={true} style= {portfolioPreviewStyle} className="img-fluid image" src={foodfind}></Image></a></div>
-                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="https://shocase.herokuapp.com/"><Image thumbnail={true} className="img-fluid image" src={shocase}></Image></a></div>
-                    <div className="col-md-6 col-lg-4 item zoom-on-hover"><a href="https://us-postal-printing.herokuapp.com/"><Image thumbnail={true} className="img-fluid image" src={USPostalPrinting}></Image></a></div>
+                    <div style={{marginBottom: '10px'}} className="col-md-6 col-lg-4 item zoom-on-hover"><a href="https://foodfind.tech/"><Image thumbnail={true} style= {portfolioPreviewStyle} className="img-fluid image" src={foodfind}></Image></a></div>
+                    <div style={{marginBottom: '10px'}} className="col-md-6 col-lg-4 item zoom-on-hover"><a href="https://shocase.herokuapp.com/"><Image thumbnail={true} className="img-fluid image" src={shocase}></Image></a></div>
+                    <div style={{marginBottom: '10px'}} className="col-md-6 col-lg-4 item zoom-on-hover"><a href="https://us-postal-printing.herokuapp.com/"><Image thumbnail={true} className="img-fluid image" src={USPostalPrinting}></Image></a></div>
                 </div>
             </div>
         </section>
@@ -72,18 +72,18 @@ export default function Home() {
             <div className="container">
            
                 <div style= {{paddingBottom: '20px'}} className="d-flex justify-content-left content">
-                    <h4 style= {{ marginTop: '8px', paddingTop: '5px', textAlign: 'center', marginRight: '20px', marginBottom: '10px', width: '17%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className='card special-skill-item border-0'>Like what you see?</h4>
-                    <button className="btn btn-bd-primary btn" type="button">Contact me</button>
+                    <h4 style= {{ marginTop: '8px', paddingTop: '5px', textAlign: 'center', marginRight: '20px', marginBottom: '10px', width: '17%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className='card special-skill-item border-0 likewhat'>Like what you see?</h4>
+                    <button className="btn btn-bd-primary btn contactMe" type="button">Contact me</button>
                 </div>
             </div>
         </section>
         <section style= {{paddingBottom: '20px'}} className="portfolio-block skills border-bottom">
             <div style= {{paddingTop: '20px'}} className="container">
-                <div style={{textAlign: 'center', marginBottom: '10px', width: '20%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className="heading card special-skill-item border-0">
+                <div style={{textAlign: 'center', marginBottom: '25px', width: '20%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className="heading card special-skill-item border-0 special">
                     <h2>Special Skills</h2>
                 </div>
-                <div className="row">
-                    <div className="col-md-4">
+                <div style={{display: 'flex'}} className="row">
+                    <div style={{marginBottom: '10px'}} className="col-md-4">
                         <div style={{backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className="card special-skill-item border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-star-outline"></i></div>
                             <div className="card-body">
@@ -92,7 +92,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div style={{marginBottom: '10px'}} className="col-md-4">
                         <div style={{backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className="card special-skill-item border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-lightbulb-outline"></i></div>
                             <div className="card-body">
@@ -101,7 +101,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div style={{marginBottom: '10px'}} className="col-md-4">
                         <div style={{backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className="card special-skill-item border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-gear-outline"></i></div>
                             <div className="card-body">
@@ -115,7 +115,7 @@ export default function Home() {
         </section>
         <section className="portfolio-block technologies">
             <div style= {{paddingTop: '20px'}} className="container">
-            <div style={{textAlign: 'center', marginBottom: '10px', width: '30%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className="heading card special-skill-item border-0">
+            <div style={{textAlign: 'center', marginBottom: '10px', width: '30%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className="heading card special-skill-item border-0 tech">
                     <h2>Technologies I Use</h2>
                 </div>
                 <div style= {{padding: '15px'}} align="center" className='d-flex flex-wrap justify-content-between'>

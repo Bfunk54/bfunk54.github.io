@@ -160,3 +160,72 @@ body {
     background-color: rgba(116, 3, 255, 0.243)  !important;
     border-color:  rgba(116, 3, 255, 0.288)  !important;
   }
+
+  @media screen and (max-width: 1400px) {
+    .likewhat {
+        height: 70px !important;
+        width: 15% !important;
+    }
+    .contactMe {
+        margin-top: 22px;
+        height: 40px !important;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .special {
+        width: 36% !important;
+        height: 36px !important;
+    }
+    .tech {
+        height: 72px !important;
+    }
+    .stage-cube-cont {
+        margin-right: -120px !important;
+        margin-top: 70px !important;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .likewhat {
+        height: 70px !important;
+        width: 22% !important;
+    }
+    .tech {
+        width: 48% !important;
+        height: 40px !important;
+    }
+    .fullStack {
+        height: 80px !important;
+    }
+    .about-me {
+        margin-left: 120px !important;
+        margin-bottom: 110px !important;
+    }
+    .stage-cube-cont {
+        margin-right: 50px !important;
+        margin-top: 230px !important;
+    }
+  }
+
+  @media screen and (max-width: 470px) {
+    .likewhat {
+        height: 70px !important;
+        width: 22% !important;
+    }
+    .tech {
+        width: 48% !important;
+        height: 40px !important;
+    }
+    .fullStack {
+        width: 78% !important;
+    }
+    .about-me {
+        margin-left: 80px !important;
+        margin-bottom: 110px !important;
+    }
+    .stage-cube-cont {
+        margin-right: 20px !important;
+        margin-top: 250px !important;
+    }
+  }
