@@ -20,6 +20,7 @@
     "emailjs": "^4.0.1",
     "gh-pages": "^4.0.0",
     "gsap-trial": "^3.11.3",
+    "hamburger-react": "^2.5.0",
     "loaders.css": "^0.1.2",
     "mdb-react-ui-kit": "5.0.0",
     "react": "18.1.0",

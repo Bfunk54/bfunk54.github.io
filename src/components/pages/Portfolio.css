@@ -1,0 +1,18 @@
+@media screen and (max-width: 1000px) {
+    .recent {
+        width: 32% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .recent {
+        width: 38% !important;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .recent {
+        width: 48% !important;
+        padding-top: 4px;
+    }
+}

@@ -6,6 +6,7 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 import InnerImageZoom from 'react-inner-image-zoom';
 import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
+import './Resume.css'
 
 export default function Blog() {
         const renderTooltip = (props) => (
@@ -15,7 +16,7 @@ export default function Blog() {
         );
 
   return (
-    <div>
+    <div className='resumeContainer'>
         <div style={{display: 'flex', justifyContent: 'center'}}>
         <OverlayTrigger
       placement="right"
@@ -23,8 +24,9 @@ export default function Blog() {
       overlay={renderTooltip}
     >
         <a href={Resume} download='BenjaminFeinResume' target='blank'>
-        <InnerImageZoom height= {615} 
-            width= {475} 
+        <InnerImageZoom height= {525} 
+            width= {375}
+            className= 'image' 
             hasSpacer= {true} 
             zoomType="hover"
             zoomPreload={true}

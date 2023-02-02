@@ -25,6 +25,7 @@ import OneShop from "../img/portfolio/OneShop.png";
 import InnerImageZoom from "react-inner-image-zoom";
 import Github from '../img/github/github-mark.png'
 import "./Home.css";
+import "./Portfolio.css"
 
 export default function Portfolio() {
   function Background({ color }) {
@@ -62,7 +63,7 @@ export default function Portfolio() {
       <section className="portfolio-block projects-with-sidebar">
         <div className="container">
           <div className="heading">
-            <div
+            <div className="recent"
               style={{
                 textAlign: "center",
                 marginBottom: "10px",

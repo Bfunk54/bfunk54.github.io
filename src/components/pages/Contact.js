@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import "./Home.css";
+import "./Contact.css"
 
 export default function Contact() {
   const form = useRef();
@@ -28,7 +28,7 @@ export default function Contact() {
     e.target.reset();
   };
   return (
-    <section className="portfolio-block contact">
+    <div style={{ marginRight: -200}} className="portfolio-block contact">
       <div style={{ height: "82.8vh" }} className="container">
         <div
           style={{
@@ -39,7 +39,7 @@ export default function Contact() {
             backgroundColor: "rgba(245, 245, 245, 0.6)",
             borderRadius: "20px",
           }}
-          className="heading"
+          className="heading contact"
         >
           <h1>Contact Me</h1>
         </div>
@@ -54,7 +54,7 @@ export default function Contact() {
                 backgroundColor: "rgba(245, 245, 245, 0.6)",
                 borderRadius: "20px",
               }}
-              className="form-label"
+              className="form-label labels"
               htmlFor="name"
             >
               Your Name
@@ -71,7 +71,7 @@ export default function Contact() {
               backgroundColor: "rgba(245, 245, 245, 0.6)",
               borderRadius: "20px",
             }}
-            className="form-label" htmlFor="subject">
+            className="form-label labels" htmlFor="subject">
               Subject
             </label>
             <input
@@ -90,7 +90,7 @@ export default function Contact() {
               backgroundColor: "rgba(245, 245, 245, 0.6)",
               borderRadius: "20px",
             }}
-            className="form-label" htmlFor="email">
+            className="form-label labels" htmlFor="email">
               Email
             </label>
             <input
@@ -108,7 +108,7 @@ export default function Contact() {
                 backgroundColor: "rgba(245, 245, 245, 0.6)",
                 borderRadius: "20px",
               }}
-              className="form-label" htmlFor="message">
+              className="form-label labels" htmlFor="message">
               Message
             </label>
             <textarea className="form-control item" id="message"></textarea>
@@ -124,6 +124,6 @@ export default function Contact() {
           </div>
         </form>
       </div>
-    </section>
+    </div>
   );
 }
