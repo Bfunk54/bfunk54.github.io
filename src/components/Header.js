@@ -42,29 +42,27 @@ function Nav({ currentPage, handlePageChange }) {
           </button>
         </Link>
       </li>
-      <li style={{display: 'flex', justifyContent: 'center', marginRight: '10px'}} className="nav-item">
-      <button className="btn btn-bd-primary btn" type="button">
-      <Link to="/resume" style={{ color: "white", textDecoration: "none", fontSize: 18 }}>
-        <a
+      <li style={{display: 'flex', justifyContent: 'center', marginRight: '10px'}} className="nav-item navbar-toggler">
+      <Link to="/resume" style={{ color: "white", textDecoration: "none", fontSize: 18 }}
         onClick={() => { handlePageChange('Resume'); toggleDrawer(false)} }
         className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
+          <button className="btn btn-bd-primary btn"
+                  data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" type="button">
           Resume
-        </a>
+          </button>
         </Link>
-        </button>
       </li>
-      <li style={{display: 'flex', justifyContent: 'center'}} className="nav-item contact">
-      <button className="btn btn-bd-primary btn" type="button">
-      <Link to="/contact" style={{ color: "white", textDecoration: "none", fontSize: 18 }}>
-        <a
+      <li style={{display: 'flex', justifyContent: 'center'}} className="nav-item navbar-toggler contact">
+      <Link to="/contact" style={{ color: "white", textDecoration: "none", fontSize: 18 }}
           onClick={() => { handlePageChange('Contact'); toggleDrawer(false)} }
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
+          <button className="btn btn-bd-primary btn"
+                  data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" type="button">
           Contact
-        </a>
+          </button>
         </Link>
-        </button>
       </li>
       </ul>
             </div>
