@@ -20,28 +20,27 @@ function Nav({ currentPage, handlePageChange }) {
         <div style={{display: 'flex', justifyContent: 'center'}} className="container"><Collapse in={true} appear={open} onEnter={toggleDrawer(true)} onExit={toggleDrawer(false)} dimension="width" timeout={9999}><a className="navbar-brand logo" style={{fontSize: '34px', color: 'black', fontWeight: 500}} href="#"><img style={{height: 110, width: 525}} className='logo' src={Logo} /></a></Collapse><button style={{marginTop: '-25px', textDecoration: "none"}} data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navbarNav"><span className="visually-hidden">Toggle navigation</span><Hamburger id="nav" onToggle={toggleDrawer(true)} color="#4FD1C5" rounded={true} style={{justifyContent: 'center'}} className="navbar-toggler-icon"/></button>
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul style={{display: 'flex', justifyContent: 'center'}} className="navbar-nav ms-auto">
-                <li style={{display: 'flex', justifyContent: 'center', marginRight: '10px'}} className="nav-item home">
+                <li style={{display: 'flex', justifyContent: 'center', marginRight: '10px'}} className="nav-item home navbar-toggler">
                 <Link to="/" style={{ color: "white", textDecoration: "none", fontSize: 18 }}
                 onClick={() => handlePageChange('Home') }
                 className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
                 >
-                  <button className="btn btn-bd-primary btn navbar-toggler"
+                  <button className="btn btn-bd-primary btn"
                   data-bs-toggle="collapse" data-bs-target="#navbarNav" type="button">
           Home
           </button>
         </Link>
       </li>
-      <li style={{display: 'flex', justifyContent: 'center', marginRight: '10px'}} className="nav-item">
-      <button className="btn btn-bd-primary btn" type="button">
-      <Link to="/portfolio" style={{ color: "white", textDecoration: "none", fontSize: 18 }}>
-        <a
+      <li style={{display: 'flex', justifyContent: 'center', marginRight: '10px'}} className="nav-item navbar-toggler">
+      <Link to="/portfolio" style={{ color: "white", textDecoration: "none", fontSize: 18 }}
         onClick={() => { handlePageChange('Portfolio'); toggleDrawer(false)} }
         className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
+          <button className="btn btn-bd-primary btn"
+                  data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" type="button">
           Portfolio
-        </a>
+          </button>
         </Link>
-        </button>
       </li>
       <li style={{display: 'flex', justifyContent: 'center', marginRight: '10px'}} className="nav-item">
       <button className="btn btn-bd-primary btn" type="button">
