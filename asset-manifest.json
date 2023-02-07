@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.32341c84.css",
-    "main.js": "/static/js/main.de5c264f.js",
-    "static/media/foodfind1.png": "/static/media/foodfind1.7069216598af54251b70.png",
-    "static/media/jate1.png": "/static/media/jate1.ae703e398162810894a3.png",
-    "static/media/shocase1.png": "/static/media/shocase1.a8c5daf2fc3ae00b69f1.png",
-    "static/media/USPostalPrinting.png": "/static/media/USPostalPrinting.c754cae54aa83c90f82e.png",
-    "static/media/BenjaminFeinResume-Large.png": "/static/media/BenjaminFeinResume-Large.010f2c339a7de665319a.png",
-    "static/media/OneShop.png": "/static/media/OneShop.45ea2c8b51f324e3dd07.png",
-    "static/media/mongodb-socialmediaapi.png": "/static/media/mongodb-socialmediaapi.c4e508304e9a3beb6e03.png",
-    "static/media/background2.jpg": "/static/media/background2.9297aa690ea8decb3905.jpg",
-    "static/media/ProgrammersHeaven.png": "/static/media/ProgrammersHeaven.ca9b9a5ff9ec735dbd78.png",
-    "static/media/BenjaminFeinLogo.png": "/static/media/BenjaminFeinLogo.2a54499fbda8c4e4f9b2.png",
-    "static/media/ZippyWeather.png": "/static/media/ZippyWeather.1727b18b0b62b5b283c7.png",
-    "static/media/NoteBuddy.png": "/static/media/NoteBuddy.2709e768b991d84ecd7d.png",
-    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
-    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
-    "static/media/BenjaminFeinResume.pdf": "/static/media/BenjaminFeinResume.50d2adc77ba5c8f96cee.pdf",
-    "index.html": "/index.html",
-    "main.32341c84.css.map": "/static/css/main.32341c84.css.map",
-    "main.de5c264f.js.map": "/static/js/main.de5c264f.js.map"
+    "main.css": "/React-Portfolio/static/css/main.24064ab2.css",
+    "main.js": "/React-Portfolio/static/js/main.2fc4109b.js",
+    "static/media/foodfind1.png": "/React-Portfolio/static/media/foodfind1.7069216598af54251b70.png",
+    "static/media/jate1.png": "/React-Portfolio/static/media/jate1.ae703e398162810894a3.png",
+    "static/media/shocase1.png": "/React-Portfolio/static/media/shocase1.a8c5daf2fc3ae00b69f1.png",
+    "static/media/USPostalPrinting.png": "/React-Portfolio/static/media/USPostalPrinting.c754cae54aa83c90f82e.png",
+    "static/media/BenjaminFeinResume-Large.png": "/React-Portfolio/static/media/BenjaminFeinResume-Large.010f2c339a7de665319a.png",
+    "static/media/OneShop.png": "/React-Portfolio/static/media/OneShop.45ea2c8b51f324e3dd07.png",
+    "static/media/mongodb-socialmediaapi.png": "/React-Portfolio/static/media/mongodb-socialmediaapi.c4e508304e9a3beb6e03.png",
+    "static/media/background2.jpg": "/React-Portfolio/static/media/background2.9297aa690ea8decb3905.jpg",
+    "static/media/ProgrammersHeaven.png": "/React-Portfolio/static/media/ProgrammersHeaven.ca9b9a5ff9ec735dbd78.png",
+    "static/media/BenjaminFeinLogo.png": "/React-Portfolio/static/media/BenjaminFeinLogo.2a54499fbda8c4e4f9b2.png",
+    "static/media/ZippyWeather.png": "/React-Portfolio/static/media/ZippyWeather.1727b18b0b62b5b283c7.png",
+    "static/media/NoteBuddy.png": "/React-Portfolio/static/media/NoteBuddy.2709e768b991d84ecd7d.png",
+    "static/media/bootstrap-icons.woff?": "/React-Portfolio/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/React-Portfolio/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/BenjaminFeinResume.pdf": "/React-Portfolio/static/media/BenjaminFeinResume.50d2adc77ba5c8f96cee.pdf",
+    "index.html": "/React-Portfolio/index.html",
+    "main.24064ab2.css.map": "/React-Portfolio/static/css/main.24064ab2.css.map",
+    "main.2fc4109b.js.map": "/React-Portfolio/static/js/main.2fc4109b.js.map"
   },
   "entrypoints": [
-    "static/css/main.32341c84.css",
-    "static/js/main.de5c264f.js"
+    "static/css/main.24064ab2.css",
+    "static/js/main.2fc4109b.js"
   ]
 }
