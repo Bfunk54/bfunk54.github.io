@@ -17,7 +17,7 @@ export default function Blog() {
 
   return (
     <div className='resumeContainer'>
-        <div style={{display: 'flex', justifyContent: 'center'}}>
+        <div className='other' style={{display: 'flex', justifyContent: 'center', paddingBottom: '120px'}}>
         <OverlayTrigger
       placement="right"
       delay={{ show: 200, hide: 400 }}

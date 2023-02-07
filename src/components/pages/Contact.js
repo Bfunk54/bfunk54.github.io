@@ -28,7 +28,7 @@ export default function Contact() {
     e.target.reset();
   };
   return (
-    <div style={{ marginRight: -200}} className="portfolio-block contact">
+    <div style={{display: 'flex', justifyContent: 'center', marginRight: -200}} className="portfolio-block contact">
       <div style={{ height: "82.8vh" }} className="container">
         <div
           style={{
