@@ -5,21 +5,27 @@ import Logo from "./img/home/BenjaminFeinLogo.png";
 import "./Header.css";
 import Hamburger from "hamburger-react";
 import { Link } from "react-router-dom";
-import useTheme from "@mui/material/styles/useTheme";
+import createTheme from "@mui/material/styles/createTheme";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
 {
   /* <Hamburger toggled={isOpen} toggle={setOpen} duration={0.8} rounded size={20} color="#696eff" /> */
 }
 
-function Nav({ currentPage, handlePageChange }) {
+function Nav() {
   const [open, setOpen] = React.useState(false);
 
-  const toggleDrawer = (newOpen) => () => {
-    setOpen(newOpen);
-  };
-
-  const theme = useTheme();
+  const theme = createTheme({
+    breakpoints: {
+      values: {
+        xs: 0,
+        sm: 600,
+        md: 992,
+        lg: 1200,
+        xl: 1536,
+      },
+    },
+  });
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
@@ -82,9 +88,6 @@ function Nav({ currentPage, handlePageChange }) {
                 to="/"
                 style={{ color: "white", textDecoration: "none", fontSize: 18 }}
                 onClick={() => {setOpen(open => !open);}}
-                className={
-                  currentPage === "Home" ? "nav-link active" : "nav-link"
-                }
               >
                 {isMobile ? (
                 <button
@@ -114,9 +117,6 @@ function Nav({ currentPage, handlePageChange }) {
                 onClick={() => {
                   setOpen(open => !open);
                 }}
-                className={
-                  currentPage === "Portfolio" ? "nav-link active" : "nav-link"
-                }
               >
                {isMobile ? (
                 <button
@@ -146,9 +146,6 @@ function Nav({ currentPage, handlePageChange }) {
                 onClick={() => {
                   setOpen(open => !open);
                 }}
-                className={
-                  currentPage === "Resume" ? "nav-link active" : "nav-link"
-                }
               >
                {isMobile ? (
                 <button
@@ -174,9 +171,6 @@ function Nav({ currentPage, handlePageChange }) {
                 onClick={() => {
                   setOpen(open => !open);
                 }}
-                className={
-                  currentPage === "Contact" ? "nav-link active" : "nav-link"
-                }
               >
                 {isMobile ? (
                 <button
