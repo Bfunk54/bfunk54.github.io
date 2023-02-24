@@ -14,6 +14,7 @@ import {
     faReact,
   } from '@fortawesome/free-brands-svg-icons'
 import './Home.css'
+import { Link } from "react-router-dom";
 
 const techIconStyle = {
     padding: "5px",
@@ -23,7 +24,7 @@ const techIconStyle = {
   };
   
 
-export default function Home() {
+export default function Home({ currentPage, handlePageChange }) {
   return (
     <div>
     <section className="portfolio-block block-intro">
@@ -73,7 +74,15 @@ export default function Home() {
            
                 <div style= {{paddingBottom: '20px'}} className="d-flex justify-content-left content">
                     <h4 style= {{ marginTop: '8px', paddingTop: '5px', textAlign: 'center', marginRight: '20px', marginBottom: '10px', width: '17%', height: '40px', backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className='card special-skill-item border-0 likewhat'>Like what you see?</h4>
+                    <Link
+                to="/contact"
+                style={{ color: "white", textDecoration: "none", fontSize: 18 }}
+                className={
+                  currentPage === "Contact" ? "nav-link active" : "nav-link"
+                }
+              >
                     <button className="btn btn-bd-primary btn contactMe" type="button">Contact me</button>
+                    </Link>
                 </div>
             </div>
         </section>

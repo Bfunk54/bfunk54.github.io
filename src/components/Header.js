@@ -5,6 +5,8 @@ import Logo from "./img/home/BenjaminFeinLogo.png";
 import "./Header.css";
 import Hamburger from "hamburger-react";
 import { Link } from "react-router-dom";
+import useTheme from "@mui/material/styles/useTheme";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 {
   /* <Hamburger toggled={isOpen} toggle={setOpen} duration={0.8} rounded size={20} color="#696eff" /> */
@@ -16,6 +18,10 @@ function Nav({ currentPage, handlePageChange }) {
   const toggleDrawer = (newOpen) => () => {
     setOpen(newOpen);
   };
+
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
+
   return (
     // 696eff  -- navbar color
     <nav
@@ -30,14 +36,6 @@ function Nav({ currentPage, handlePageChange }) {
         style={{ display: "flex", justifyContent: "center" }}
         className="container"
       >
-        <Collapse
-          in={true}
-          appear={open}
-          onEnter={toggleDrawer(true)}
-          onExit={toggleDrawer(false)}
-          dimension="width"
-          timeout={9999}
-        >
           <a
             className="navbar-brand logo"
             style={{ fontSize: "34px", color: "black", fontWeight: 500 }}
@@ -49,7 +47,6 @@ function Nav({ currentPage, handlePageChange }) {
               src={Logo}
             />
           </a>
-        </Collapse>
         <button
           style={{ marginTop: "-25px", textDecoration: "none" }}
           data-bs-toggle="collapse"
@@ -59,7 +56,9 @@ function Nav({ currentPage, handlePageChange }) {
           <span className="visually-hidden">Toggle navigation</span>
           <Hamburger
             id="nav"
-            onToggle={toggleDrawer(true)}
+            // onToggle={toggleDrawer(true)}
+            toggle={setOpen}
+            toggled={open}
             color="#4FD1C5"
             rounded={true}
             style={{ justifyContent: "center" }}
@@ -82,18 +81,23 @@ function Nav({ currentPage, handlePageChange }) {
               <Link
                 to="/"
                 style={{ color: "white", textDecoration: "none", fontSize: 18 }}
-                onClick={() => handlePageChange("Home")}
+                onClick={() => {setOpen(open => !open);}}
                 className={
                   currentPage === "Home" ? "nav-link active" : "nav-link"
                 }
               >
+                {isMobile ? (
                 <button
                   className="btn btn-bd-primary btn"
-                  data-bs-target="#navbarNav"
+                  data-bs-toggle="collapse"
+                  data-bs-target=".navbar-collapse.show"
                   type="button"
                 >
                   Home
                 </button>
+                ) : (
+                  <button className="btn btn-bd-primary btn">Home</button>
+                  )}
               </Link>
             </li>
             <li
@@ -108,13 +112,13 @@ function Nav({ currentPage, handlePageChange }) {
                 to="/portfolio"
                 style={{ color: "white", textDecoration: "none", fontSize: 18 }}
                 onClick={() => {
-                  handlePageChange("Portfolio");
-                  toggleDrawer(false);
+                  setOpen(open => !open);
                 }}
                 className={
                   currentPage === "Portfolio" ? "nav-link active" : "nav-link"
                 }
               >
+               {isMobile ? (
                 <button
                   className="btn btn-bd-primary btn"
                   data-bs-toggle="collapse"
@@ -123,6 +127,9 @@ function Nav({ currentPage, handlePageChange }) {
                 >
                   Portfolio
                 </button>
+                ) : (
+                  <button className="btn btn-bd-primary btn">Portfolio</button>
+                  )}
               </Link>
             </li>
             <li
@@ -137,13 +144,13 @@ function Nav({ currentPage, handlePageChange }) {
                 to="/resume"
                 style={{ color: "white", textDecoration: "none", fontSize: 18 }}
                 onClick={() => {
-                  handlePageChange("Resume");
-                  toggleDrawer(false);
+                  setOpen(open => !open);
                 }}
                 className={
                   currentPage === "Resume" ? "nav-link active" : "nav-link"
                 }
               >
+               {isMobile ? (
                 <button
                   className="btn btn-bd-primary btn"
                   data-bs-toggle="collapse"
@@ -152,6 +159,9 @@ function Nav({ currentPage, handlePageChange }) {
                 >
                   Resume
                 </button>
+                ) : (
+                  <button className="btn btn-bd-primary btn">Resume</button>
+                  )}
               </Link>
             </li>
             <li
@@ -162,13 +172,13 @@ function Nav({ currentPage, handlePageChange }) {
                 to="/contact"
                 style={{ color: "white", textDecoration: "none", fontSize: 18 }}
                 onClick={() => {
-                  handlePageChange("Contact");
-                  toggleDrawer(false);
+                  setOpen(open => !open);
                 }}
                 className={
                   currentPage === "Contact" ? "nav-link active" : "nav-link"
                 }
               >
+                {isMobile ? (
                 <button
                   className="btn btn-bd-primary btn"
                   data-bs-toggle="collapse"
@@ -177,7 +187,10 @@ function Nav({ currentPage, handlePageChange }) {
                 >
                   Contact
                 </button>
-              </Link>
+                ) : (
+                  <button className="btn btn-bd-primary btn">Contact</button>
+                  )}
+                  </Link>
             </li>
           </ul>
         </div>
