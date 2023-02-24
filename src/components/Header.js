@@ -73,8 +73,8 @@ function Nav() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul
-            style={{ display: "flex", justifyContent: "center" }}
-            className="navbar-nav ms-auto"
+            style={{ width: "100%", display: "flex", justifyContent: "space-around"}}
+            className="navbar-nav"
           >
             <li
               style={{
@@ -107,7 +107,7 @@ function Nav() {
               style={{
                 display: "flex",
                 justifyContent: "center",
-                marginRight: "10px",
+                marginRight: "10px"
               }}
               className="nav-item navbar-toggler"
             >
@@ -163,7 +163,7 @@ function Nav() {
             </li>
             <li
               style={{ display: "flex", justifyContent: "center" }}
-              className="nav-item navbar-toggler contact"
+              className="nav-item navbar-toggler"
             >
               <Link
                 to="/contact"
