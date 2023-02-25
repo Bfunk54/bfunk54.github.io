@@ -12,14 +12,7 @@ import backgroundImage from "./img/home/background2.jpg";
 
 export default function PortfolioContainer() {
   var background = {
-    backgroundImage: `url(${backgroundImage})`,
-    repeat: "no-repeat",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundAttachment: "fixed",
-    height: "100%",
-    width: "100vw",
-    zIndex: "-1",
+
   };
 
   const [currentPage, setCurrentPage] = useState("Home");
@@ -43,7 +36,7 @@ export default function PortfolioContainer() {
     <Router>
       <div style={background}>
         <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-        <main style={{ paddingTop: "160px", height: "100%" }}>
+        <main >
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/portfolio" element={<Portfolio />} />

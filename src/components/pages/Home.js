@@ -26,10 +26,10 @@ const techIconStyle = {
 
 export default function Home({ currentPage, handlePageChange }) {
   return (
-    <div>
+    <div className='home'>
     <section className="portfolio-block block-intro">
             <div className="cubeContainer container">
-                <div className="about-me" style={{marginLeft: 80, marginBottom: -20}}>
+                <div className="about-me" style={{}}>
                 <div style={{textAlign: 'center', marginBottom: '10px', width: '70%', height: '100px', backgroundColor: 'rgba(245, 245, 245, 0.7)'}} className="heading card special-skill-item border-0 fullStack">
                     <h1>A full stack MERN web developer.</h1>
                     </div>

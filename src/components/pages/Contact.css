@@ -25,3 +25,15 @@
         padding-top: 6px;
     }
 }
+
+@media screen and (max-width: 440px) {
+    .contact {
+        margin-top: 0;
+    }
+
+    .lastBtn {
+        margin-bottom: 10px !important;
+        height: fit-content;
+    }
+
+}

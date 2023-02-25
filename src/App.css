@@ -1,0 +1,16 @@
+html, body, #app, app>div, #root {
+    width: 100%;
+    height: auto;
+}
+
+body, #app, app>div, #root {
+    background-color: transparent !important;
+}
+
+html {
+    background-image: url(./components/img/home/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}

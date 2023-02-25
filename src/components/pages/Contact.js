@@ -29,7 +29,7 @@ export default function Contact() {
   };
   return (
     <div style={{display: 'flex', justifyContent: 'center', marginRight: -200}} className="portfolio-block contact">
-      <div style={{ height: "82.8vh" }} className="container">
+      <div style={{ height: "auto" }} className="container">
         <div
           style={{
             textAlign: "center",
@@ -115,7 +115,7 @@ export default function Contact() {
           </div>
           <div className="mb-3">
             <button
-              className="btn btn-bd-primary btn"
+              className="btn btn-bd-primary btn lastBtn"
               style={{ width: "100%" }}
               type="submit"
             >

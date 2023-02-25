@@ -1,16 +1,15 @@
-body {
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-    height: auto;
-    background-color: #000;
-}
-
 .cubeContainer {
     display: flex; 
 }
 .about-me {
     height: 200px;
     margin-top: 70px;
+    margin-left: 80px;
+    margin-bottom: -20px;
+}
+
+.home {
+    padding-top: 125px;
 }
 
 .portfolio-block {
@@ -19,8 +18,8 @@ body {
 }
 
 .stage-cube-cont {
-    width: 50%;
-    height: 100%;
+    width: 60%;
+    height: 400px;
     top: 0;
     padding-top: 9%;
     margin-left: 0;
@@ -163,89 +162,93 @@ body {
 
   @media screen and (max-width: 1400px) {
     .likewhat {
-        height: 70px !important;
-        width: 15% !important;
+        height: 70px ;
+        width: 15% ;
     }
     .contactMe {
         margin-top: 22px;
-        height: 40px !important;
+        height: 40px ;
+    }
+    .stage-cube-cont {
+        padding-left: 240px ;
+        margin-top: 30px !important;
     }
   }
 
   @media screen and (max-width: 992px) {
     .special {
-        width: 36% !important;
-        height: 36px !important;
+        width: 36% ;
+        height: 36px ;
     }
     .tech {
-        height: 72px !important;
-    }
-    .stage-cube-cont {
-        margin-right: -120px !important;
-        margin-top: 70px !important;
+        height: 72px ;
     }
   }
 
   @media screen and (max-width: 768px) {
     .likewhat {
-        height: 70px !important;
-        width: 22% !important;
+        height: 70px ;
+        width: 22% ;
     }
     .tech {
-        width: 48% !important;
-        height: 40px !important;
+        width: 48%;
+        height: 40px;
     }
     .fullStack {
-        height: 80px !important;
+        height: 80px ;
     }
     .about-me {
-        margin-left: 120px !important;
-        margin-bottom: 110px !important;
+        margin-left: 120px ;
+        margin-bottom: 110px ;
     }
     .stage-cube-cont {
-        margin-right: 50px !important;
-        margin-top: 230px !important;
+        margin-right: 45px ;
+        padding-top: 0px ;
     }
   }
 
-  @media screen and (max-width: 470px) {
+  @media screen and (max-width: 300px) {
     .likewhat {
-        height: 70px !important;
-        width: 22% !important;
+        height: 70px ;
+        width: 22% ;
     }
     .tech {
-        width: 48% !important;
-        height: 40px !important;
+        width: 48% ;
+        height: 40px ;
     }
     .fullStack {
-        width: 78% !important;
+        width: 78% ;
     }
     .about-me {
-        margin-left: 70px !important;
-        margin-bottom: 110px !important;
+        margin-left: 70px ;
+        margin-bottom: 110px ;
     }
     .stage-cube-cont {
-        margin-right: 20px !important;
-        margin-top: 250px !important;
+        margin-right: 25px ;
+        margin-top: 250px ;
     }
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 300px) {
     .likewhat {
-        height: 60px !important;
-        width: 40% !important;
+        height: 60px ;
+        width: 40% ;
     }
     .contactMe {
         margin-top: 20px;
     }
     .special {
-        width: 44% !important;
-        height: 38px !important;
-        padding-top: 2px !important;
+        width: 44% ;
+        height: 38px ;
+        padding-top: 2px ;
     }
     .tech {
-        width: 58% !important;
-        height: 36px !important;
-        padding-top: 2px !important;
+        width: 58% ;
+        height: 36px ;
+        padding-top: 2px ;
+    }
+    .stage-cube-cont {
+        margin-right: 0px ;
+        margin-top: 250px ;
     }
   }
