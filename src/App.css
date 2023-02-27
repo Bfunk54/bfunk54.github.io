@@ -1,11 +1,18 @@
 html {
     width: 100%;
     overflow-x: hidden;
+    min-height: 900px;
     /* height: 100%; */
 }
 /* body {
     min-height: 100%
 } */
+
+@media screen and (max-height: 800px) {
+    html {
+    min-height: auto;
+    }
+}
 
 body, #app, app>div, #root {
     background-color: transparent !important;

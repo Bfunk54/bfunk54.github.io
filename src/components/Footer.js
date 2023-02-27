@@ -7,9 +7,7 @@ function TheFooter() {
     <MDBFooter
       style={{
         paddingLeft: 20,
-        marginLeft: '56%',
         bottom: "10px",
-        width: '42%',
         marginBottom: "10px",
         position: "sticky",
         backgroundColor: "rgba(245, 245, 245, 0.5)",
@@ -20,7 +18,7 @@ function TheFooter() {
       }}
       className="footer"
     >
-      <span className="text-dark" style={{ fontSize: "16px", alignSelf: 'center' }}>
+      <span className="text" style={{ fontSize: "16px", color: 'rgb(76, 76, 76)', alignSelf: 'center' }}>
         Benjamin Fein - 2023
       </span>
 
