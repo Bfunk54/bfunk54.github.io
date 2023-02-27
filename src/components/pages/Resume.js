@@ -19,7 +19,7 @@ export default function Blog() {
     <div className='resumeContainer'>
         <div className='other' style={{display: 'flex', justifyContent: 'center', paddingBottom: '40px'}}>
         <OverlayTrigger
-      placement="right"
+      placement="top"
       delay={{ show: 200, hide: 400 }}
       overlay={renderTooltip}
     >

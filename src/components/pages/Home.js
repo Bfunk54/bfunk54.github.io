@@ -32,9 +32,12 @@ export default function Home({ currentPage, handlePageChange }) {
               style={{
                 textAlign: "center",
                 marginBottom: "10px",
+                display: "flex",
+                justifyContent: "center",
                 width: "70%",
-                height: "100px",
-                backgroundColor: "rgba(245, 245, 245, 0.7)",
+                height: "110px",
+                backgroundColor: "rgba(245, 245, 245, 0.4)",
+                backdropFilter: "blur(20px)",
               }}
               className="heading card special-skill-item border-0 fullStack"
             >
@@ -147,14 +150,19 @@ export default function Home({ currentPage, handlePageChange }) {
           <div style={{ display: "flex" }} className="row">
             <div style={{ marginBottom: "10px" }} className="col-md-4">
               <div
-                style={{ backgroundColor: "rgba(245, 245, 245, 0.7)" }}
+                style={{
+                  backgroundColor: "rgba(245, 245, 245, 0.4)",
+                  backdropFilter: "blur(20px)",
+                }}
                 className="card special-skill-item border-0"
               >
-                <div className="card-header bg-transparent border-0">
-                  <i className="icon ion-ios-star-outline"></i>
+                <div
+                  className="card-header bg-transparent border-0"
+                  style={{ paddingBottom: "0px", paddingTop: "10px" }}
+                >
+                  <h3 className="card-title">Full Stack MERN Apps</h3>
                 </div>
                 <div className="card-body">
-                  <h3 className="card-title">Full Stack MERN Apps</h3>
                   <p className="card-text">
                     I can make web applications which utilize a database I can
                     create from scratch and utilize a clean, intuitive and
@@ -167,14 +175,19 @@ export default function Home({ currentPage, handlePageChange }) {
             </div>
             <div style={{ marginBottom: "10px" }} className="col-md-4">
               <div
-                style={{ backgroundColor: "rgba(245, 245, 245, 0.7)" }}
+                style={{
+                  backgroundColor: "rgba(245, 245, 245, 0.4)",
+                  backdropFilter: "blur(20px)",
+                }}
                 className="card special-skill-item border-0"
               >
-                <div className="card-header bg-transparent border-0">
-                  <i className="icon ion-ios-lightbulb-outline"></i>
+                <div
+                  className="card-header bg-transparent border-0"
+                  style={{ paddingBottom: "0px", paddingTop: "10px" }}
+                >
+                  <h3 className="card-title">Web Apps</h3>
                 </div>
                 <div className="card-body">
-                  <h3 className="card-title">Web Apps</h3>
                   <p className="card-text">
                     I can also create simpler websites which only employ a
                     front-end utitlizing html, css, and javascript.
@@ -184,14 +197,19 @@ export default function Home({ currentPage, handlePageChange }) {
             </div>
             <div style={{ marginBottom: "10px" }} className="col-md-4">
               <div
-                style={{ backgroundColor: "rgba(245, 245, 245, 0.7)" }}
+                style={{
+                  backgroundColor: "rgba(245, 245, 245, 0.4)",
+                  backdropFilter: "blur(20px)",
+                }}
                 className="card special-skill-item border-0"
               >
-                <div className="card-header bg-transparent border-0">
-                  <i className="icon ion-ios-gear-outline"></i>
+                <div
+                  className="card-header bg-transparent border-0"
+                  style={{ paddingBottom: "0px", paddingTop: "10px" }}
+                >
+                  <h3 className="card-title">Back-End Server Developement</h3>
                 </div>
                 <div className="card-body">
-                  <h3 className="card-title">Back-End Server Developement</h3>
                   <p className="card-text">
                     I can create back-end servers used to store and encrypt
                     secure data. This can also be known as a database or API.

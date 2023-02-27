@@ -36,7 +36,11 @@ export default function Contact() {
             marginBottom: "25px",
             width: "20%",
             height: "50px",
-            backgroundColor: "rgba(245, 245, 245, 0.6)",
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundColor: "rgba(245, 245, 245, 0.5)", 
+            backdropFilter: "blur(20px)",
             borderRadius: "20px",
           }}
           className="heading contact"
@@ -51,7 +55,8 @@ export default function Contact() {
                 marginBottom: "10px",
                 width: "8%",
                 height: "25px",
-                backgroundColor: "rgba(245, 245, 245, 0.6)",
+                backgroundColor: "rgba(245, 245, 245, 0.4)", 
+                backdropFilter: "blur(20px)",
                 borderRadius: "20px",
               }}
               className="form-label labels"
@@ -68,7 +73,8 @@ export default function Contact() {
               marginBottom: "10px",
               width: "8%",
               height: "25px",
-              backgroundColor: "rgba(245, 245, 245, 0.6)",
+              backgroundColor: "rgba(245, 245, 245, 0.4)", 
+                backdropFilter: "blur(20px)",
               borderRadius: "20px",
             }}
             className="form-label labels" htmlFor="subject">
@@ -87,7 +93,8 @@ export default function Contact() {
               marginBottom: "10px",
               width: "8%",
               height: "25px",
-              backgroundColor: "rgba(245, 245, 245, 0.6)",
+              backgroundColor: "rgba(245, 245, 245, 0.4)", 
+                backdropFilter: "blur(20px)",
               borderRadius: "20px",
             }}
             className="form-label labels" htmlFor="email">
@@ -105,7 +112,8 @@ export default function Contact() {
                 marginBottom: "10px",
                 width: "8%",
                 height: "25px",
-                backgroundColor: "rgba(245, 245, 245, 0.6)",
+                backgroundColor: "rgba(245, 245, 245, 0.4)", 
+                backdropFilter: "blur(20px)",
                 borderRadius: "20px",
               }}
               className="form-label labels" htmlFor="message">
