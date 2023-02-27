@@ -1,5 +1,7 @@
 .cubeContainer {
     display: flex; 
+    justify-content: center;
+    align-items: center;
 }
 .about-me {
     height: 200px;
@@ -10,6 +12,33 @@
 
 .home {
     padding-top: 125px;
+}
+
+.special {
+    text-align: center;
+    margin-bottom: 25px;
+    width: 20%;
+    height: 40px;
+    background-color: rgba(245, 245, 245, 0.7) !important;
+}
+
+.tech {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 40px;
+    background-color: rgba(245, 245, 245, 0.7) !important;
+}
+
+.likewhat {
+    margin-top: 29px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    text-align: center;
+    margin-right: 20px;
+    width: 24%;
+    height: 40px;
+    background-color: rgba(245, 245, 245, 0.7) !important;
 }
 
 .portfolio-block {
@@ -135,12 +164,6 @@
     background-color:rgb(0, 144, 144) !important;
 }
 
-@media screen and (max-width: 575px){
-    .btn{
-        margin-bottom: 50px !important;
-    }
-}
-
 .btn-bd-primary {
     font-weight: 600!important;
     color: white !important;
@@ -170,18 +193,23 @@
         height: 40px ;
     }
     .stage-cube-cont {
-        padding-left: 240px ;
-        margin-top: 30px !important;
+        right: -180px;
+        top: 30px;
+        width: 600px;
     }
   }
 
   @media screen and (max-width: 992px) {
     .special {
-        width: 36% ;
-        height: 36px ;
+        width: 36%;
+        height: 36px;
     }
     .tech {
-        height: 72px ;
+        height: 72px;
+    }
+    .likewhat {
+        height: 70px ;
+        width: 22% ;
     }
   }
 
@@ -202,10 +230,48 @@
         margin-bottom: 110px ;
     }
     .stage-cube-cont {
-        margin-right: 45px ;
-        padding-top: 0px ;
+        right: 40px ;
+        top: 230px;
+        width: 80%;
     }
   }
+
+  @media screen and (max-width: 575px){
+    .btn {
+        margin-bottom: 50px !important;
+    }
+    .contactMe {
+        margin-bottom: 0px !important;
+    }
+    /* .stage-cube-cont {
+        right: 0px;
+        top: 200px;
+        width: 600px;
+    } */
+}
+@media screen and (max-width: 525px){
+.stage-cube-cont {
+    padding-left: 260px;
+    top: 250px;
+    width: 600px;
+}
+}
+
+@media screen and (max-width: 465px){
+    .stage-cube-cont {
+        padding-left: 340px;
+    top: 250px;
+    width: 600px;
+    }
+    .about-me {
+        margin-left: 90px ;
+        margin-bottom: 110px ;
+    }
+    .likewhat {
+        height: 70px ;
+        width: 42% ;
+    }
+    }
 
   @media screen and (max-width: 300px) {
     .likewhat {
@@ -224,8 +290,9 @@
         margin-bottom: 110px ;
     }
     .stage-cube-cont {
-        margin-right: 25px ;
-        margin-top: 250px ;
+        right: 80px ;
+        top: 180px;
+        width: 100%;
     }
   }
 
@@ -246,9 +313,5 @@
         width: 58% ;
         height: 36px ;
         padding-top: 2px ;
-    }
-    .stage-cube-cont {
-        margin-right: 0px ;
-        margin-top: 250px ;
     }
   }
