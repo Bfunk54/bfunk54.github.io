@@ -38,6 +38,7 @@ export default function Home({ currentPage, handlePageChange }) {
                 height: "110px",
                 backgroundColor: "rgba(245, 245, 245, 0.4)",
                 backdropFilter: "blur(20px)",
+                webkitBackdropFilter: 'blur(20px)',
               }}
               className="heading card special-skill-item border-0 fullStack"
             >
@@ -153,6 +154,7 @@ export default function Home({ currentPage, handlePageChange }) {
                 style={{
                   backgroundColor: "rgba(245, 245, 245, 0.4)",
                   backdropFilter: "blur(20px)",
+                  webkitBackdropFilter: 'blur(20px)',
                 }}
                 className="card special-skill-item border-0"
               >
@@ -178,6 +180,7 @@ export default function Home({ currentPage, handlePageChange }) {
                 style={{
                   backgroundColor: "rgba(245, 245, 245, 0.4)",
                   backdropFilter: "blur(20px)",
+                  webkitBackdropFilter: 'blur(20px)',
                 }}
                 className="card special-skill-item border-0"
               >
@@ -200,6 +203,7 @@ export default function Home({ currentPage, handlePageChange }) {
                 style={{
                   backgroundColor: "rgba(245, 245, 245, 0.4)",
                   backdropFilter: "blur(20px)",
+                  webkitBackdropFilter: 'blur(20px)',
                 }}
                 className="card special-skill-item border-0"
               >

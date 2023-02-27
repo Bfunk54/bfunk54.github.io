@@ -12,6 +12,7 @@ function TheFooter() {
         position: "sticky",
         backgroundColor: "rgba(245, 245, 245, 0.5)",
         backdropFilter: "blur(20px)",
+        webkitBackdropFilter: 'blur(20px)',
         display: 'flex',
         borderRadius: "20px",
         marginRight: "0px",

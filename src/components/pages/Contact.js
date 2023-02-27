@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import "./Contact.css"
+import "./Contact.css";
 
 export default function Contact() {
   const form = useRef();
@@ -28,7 +28,16 @@ export default function Contact() {
     e.target.reset();
   };
   return (
-    <div style={{display: 'flex', justifyContent: 'center', marginRight: -200, marginTop: '180px', marginBottom: '20px'}} className="portfolio-block contact">
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        marginRight: -200,
+        marginTop: "180px",
+        marginBottom: "20px",
+      }}
+      className="portfolio-block contact"
+    >
       <div style={{ height: "auto" }} className="container">
         <div
           style={{
@@ -36,11 +45,12 @@ export default function Contact() {
             marginBottom: "25px",
             width: "20%",
             height: "50px",
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            backgroundColor: "rgba(245, 245, 245, 0.5)", 
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            backgroundColor: "rgba(245, 245, 245, 0.5)",
             backdropFilter: "blur(20px)",
+            webkitBackdropFilter: "blur(20px)",
             borderRadius: "20px",
           }}
           className="heading contact"
@@ -55,8 +65,9 @@ export default function Contact() {
                 marginBottom: "10px",
                 width: "8%",
                 height: "25px",
-                backgroundColor: "rgba(245, 245, 245, 0.4)", 
+                backgroundColor: "rgba(245, 245, 245, 0.4)",
                 backdropFilter: "blur(20px)",
+                webkitBackdropFilter: "blur(20px)",
                 borderRadius: "20px",
               }}
               className="form-label labels"
@@ -67,17 +78,20 @@ export default function Contact() {
             <input className="form-control item" type="text" id="name"></input>
           </div>
           <div className="mb-3">
-            <label 
-            style={{
-              textAlign: "center",
-              marginBottom: "10px",
-              width: "8%",
-              height: "25px",
-              backgroundColor: "rgba(245, 245, 245, 0.4)", 
+            <label
+              style={{
+                textAlign: "center",
+                marginBottom: "10px",
+                width: "8%",
+                height: "25px",
+                backgroundColor: "rgba(245, 245, 245, 0.4)",
                 backdropFilter: "blur(20px)",
-              borderRadius: "20px",
-            }}
-            className="form-label labels" htmlFor="subject">
+                webkitBackdropFilter: "blur(20px)",
+                borderRadius: "20px",
+              }}
+              className="form-label labels"
+              htmlFor="subject"
+            >
               Subject
             </label>
             <input
@@ -87,17 +101,20 @@ export default function Contact() {
             ></input>
           </div>
           <div className="mb-3">
-            <label 
-            style={{
-              textAlign: "center",
-              marginBottom: "10px",
-              width: "8%",
-              height: "25px",
-              backgroundColor: "rgba(245, 245, 245, 0.4)", 
+            <label
+              style={{
+                textAlign: "center",
+                marginBottom: "10px",
+                width: "8%",
+                height: "25px",
+                backgroundColor: "rgba(245, 245, 245, 0.4)",
                 backdropFilter: "blur(20px)",
-              borderRadius: "20px",
-            }}
-            className="form-label labels" htmlFor="email">
+                webkitBackdropFilter: "blur(20px)",
+                borderRadius: "20px",
+              }}
+              className="form-label labels"
+              htmlFor="email"
+            >
               Email
             </label>
             <input
@@ -107,16 +124,20 @@ export default function Contact() {
             ></input>
           </div>
           <div className="mb-3">
-            <label style={{
+            <label
+              style={{
                 textAlign: "center",
                 marginBottom: "10px",
                 width: "8%",
                 height: "25px",
-                backgroundColor: "rgba(245, 245, 245, 0.4)", 
+                backgroundColor: "rgba(245, 245, 245, 0.4)",
                 backdropFilter: "blur(20px)",
+                webkitBackdropFilter: "blur(20px)",
                 borderRadius: "20px",
               }}
-              className="form-label labels" htmlFor="message">
+              className="form-label labels"
+              htmlFor="message"
+            >
               Message
             </label>
             <textarea className="form-control item" id="message"></textarea>

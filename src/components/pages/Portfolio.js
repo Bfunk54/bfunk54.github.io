@@ -42,6 +42,7 @@ export default function Portfolio() {
                 height: "40px",
                 backgroundColor: "rgba(245, 245, 245, 0.5)",
                 backdropFilter: "blur(20px)",
+                webkitBackdropFilter: 'blur(20px)',
                 borderRadius: "20px",
               }}
             >
