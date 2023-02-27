@@ -1,3 +1,7 @@
+.portfolio {
+    margin-top: 160px;
+}
+
 @media screen and (max-width: 1200px) {
     .recent {
         width: 28% !important;
@@ -15,6 +19,12 @@
         width: 38% !important;
         margin-top: 25px;
         padding-top: 4px;
+    }
+}
+
+@media screen and (max-width: 482px) {
+    .portfolio {
+        margin-top: 140px;
     }
 }
 

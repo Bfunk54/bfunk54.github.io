@@ -1,24 +1,66 @@
-import React from 'react';
-import { MDBFooter } from 'mdb-react-ui-kit';
-import './Footer.css'
+import React from "react";
+import { MDBFooter } from "mdb-react-ui-kit";
+import "./Footer.css";
 
 function TheFooter() {
   return (
-    <MDBFooter style={{paddingLeft: 20, position: 'sticky'}} className="footer">
-        <span className='text-light' style={{fontSize: '16px'}}>Ben's Portfolio 2023 </span>
+    <MDBFooter
+      style={{
+        paddingLeft: 20,
+        marginLeft: '56%',
+        bottom: "10px",
+        width: '42%',
+        marginBottom: "10px",
+        position: "sticky",
+        backgroundColor: "rgba(245, 245, 245, 0.5)",
+        backdropFilter: "blur(20px)",
+        display: 'flex',
+        borderRadius: "20px",
+        marginRight: "0px",
+      }}
+      className="footer"
+    >
+      <span className="text-dark" style={{ fontSize: "16px", alignSelf: 'center' }}>
+        Benjamin Fein - 2023
+      </span>
 
-        <a className='socials' style= {{padding: '16px', paddingBottom: 0}} href="https://github.com/Bfunk54" target="_blank" rel="noreferrer">
-            <i style={{fontSize: '40px'}} className="bi bi-github"><span style={{fontSize: '10px'}}>github</span></i>
-        </a>
+      <a
+        className="socials"
+        style={{ padding: "16px", paddingBottom: 0 }}
+        href="https://github.com/Bfunk54"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i style={{ fontSize: "40px" }} className="bi bi-github">
+          <span style={{ fontSize: "10px" }}>github</span>
+        </i>
+      </a>
 
-        <a className='socials' style= {{padding: '16px', paddingBottom: 0}} href="https://www.linkedin.com/in/benjamin-fein-5a73b2242/" target="_blank" rel="noreferrer">
-            <i style={{fontSize: '40px'}} className="bi bi-linkedin"><span style={{fontSize: '10px', padding: '4px'}}>linkedin</span></i>
-        </a>
+      <a
+        className="socials"
+        style={{ padding: "16px", paddingBottom: 0 }}
+        href="https://www.linkedin.com/in/benjamin-fein-5a73b2242/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i style={{ fontSize: "40px" }} className="bi bi-linkedin">
+          <span style={{ fontSize: "10px", padding: "4px" }}>linkedin</span>
+        </i>
+      </a>
 
-        <a className='socials' style= {{padding: '16px', paddingBottom: 0}} href="https://twitter.com/ben_fein" target="_blank" rel="noreferrer">
-            <i style={{fontSize: '40px'}} className="bi bi-twitter"><span style={{fontSize: '10px'}}>twitter</span></i>
-        </a>
+      <a
+        className="socials"
+        style={{ padding: "16px", paddingBottom: 0 }}
+        href="https://twitter.com/ben_fein"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i style={{ fontSize: "40px" }} className="bi bi-twitter">
+          <span style={{ fontSize: "10px" }}>twitter</span>
+        </i>
+      </a>
     </MDBFooter>
-    )};
+  );
+}
 
 export default TheFooter;

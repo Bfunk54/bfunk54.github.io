@@ -1,11 +1,9 @@
-@media screen and (max-width: 768px) {
-  .resumeContainer {
-    margin-top: 30px;
-  }
+.resumeContainer{
+  padding-top: 180px;
 }
 
-@media screen and (max-height: 800px) {
-  .other {
-    padding-bottom: 50px !important;
+@media screen and (max-width: 510px) {
+  .resumeContainer{
+    padding-top: 180px;
   }
 }

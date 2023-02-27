@@ -28,39 +28,9 @@ import "./Home.css";
 import "./Portfolio.css"
 
 export default function Portfolio() {
-  function Background({ color }) {
-    const { viewport } = useThree();
-    return (
-      <mesh scale={[viewport.width, viewport.height, 1]}>
-        <planeGeometry attach="geometry" args={[1, 1]} />
-        <a.meshBasicMaterial
-          attach="material"
-          color={color}
-          depthTest={false}
-        />
-      </mesh>
-    );
-  }
-
-  const Effects = React.memo(({ factor }) => {
-    const { gl, scene, camera, size } = useThree();
-    const composer = useRef();
-    useEffect(
-      () => void composer.current.setSize(size.width, size.height),
-      [size]
-    );
-    // This takes over as the main render-loop (when 2nd arg is set to true)
-    useFrame(() => composer.current.render(), 1);
-    return (
-      <effectComposer ref={composer} args={[gl]}>
-        <renderPass attachArray="passes" args={[scene, camera]} />
-        <a.glitchPass attachArray="passes" renderToScreen factor={factor} />
-      </effectComposer>
-    );
-  });
   return (
-    <div>
-      <section className="portfolio-block projects-with-sidebar">
+    <div style={{margin: 'auto'}}>
+      <section className="portfolio-block projects-with-sidebar portfolio">
         <div className="container">
           <div className="heading">
             <div className="recent"

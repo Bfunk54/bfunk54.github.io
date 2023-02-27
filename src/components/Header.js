@@ -35,6 +35,7 @@ function Nav() {
         backgroundColor: "rgba(245, 245, 245, 0.7)",
         borderBottomLeftRadius: "40px",
         borderBottomRightRadius: "40px",
+        width: '100%'
       }}
       className="navbar navbar-dark navbar-expand-lg fixed-top portfolio-navbar gradient"
     >
