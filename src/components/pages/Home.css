@@ -34,15 +34,20 @@
 }
 
 .likewhat {
+    height: 70px ;
+    width: 15% ;
     margin-top: 29px;
     padding-top: 5px;
     padding-bottom: 4px;
     text-align: center;
     margin-right: 20px;
-    width: 24%;
-    height: 40px;
     background-color: rgba(245, 245, 245, 0.5) !important; 
     backdrop-filter: blur(20px);
+}
+
+.contactMe {
+    margin-top: 22px;
+    height: 40px ;
 }
 
 .portfolio-block {
@@ -51,14 +56,14 @@
 }
 
 .stage-cube-cont {
-    width: 60%;
     height: 400px;
-    top: 0;
     padding-top: 9%;
     margin-left: 0;
     position: absolute;
-    right: 65px;
     overflow: hidden;
+    right: -180px;
+        top: 30px;
+        width: 600px;
 }
 .cubespinner {
     animation-name: spincube;
@@ -189,17 +194,10 @@
 
   @media screen and (max-width: 1400px) {
     .likewhat {
-        height: 70px ;
-        width: 15% ;
-    }
-    .contactMe {
-        margin-top: 22px;
-        height: 40px ;
+        
     }
     .stage-cube-cont {
-        right: -180px;
-        top: 30px;
-        width: 600px;
+        
     }
   }
 

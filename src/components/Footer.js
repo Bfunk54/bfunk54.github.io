@@ -7,7 +7,7 @@ function TheFooter() {
     <MDBFooter
       style={{
         paddingLeft: 20,
-        bottom: "10px",
+        bottom: "5px",
         marginBottom: "10px",
         position: "sticky",
         backgroundColor: "rgba(245, 245, 245, 0.5)",

@@ -32,7 +32,8 @@ function Nav() {
     // 696eff  -- navbar color
     <nav
       style={{
-        backgroundColor: "rgba(245, 245, 245, 0.7)",
+        backgroundColor: "rgba(245, 245, 245, 0.55)",
+        backdropFilter: "blur(20px)",
         borderBottomLeftRadius: "40px",
         borderBottomRightRadius: "40px",
         width: '100%'
