@@ -76,7 +76,7 @@ function Nav() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul
-            style={{ width: "100%", display: "flex", justifyContent: "space-evenly"}}
+            style={{ }}
             className="navbar-nav"
           >
             <li
