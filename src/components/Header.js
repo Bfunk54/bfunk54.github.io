@@ -34,7 +34,7 @@ function Nav() {
       style={{
         backgroundColor: "rgba(245, 245, 245, 0.55)",
         backdropFilter: "blur(20px)",
-        webkitBackdropFilter: 'blur(20px)',
+        WebkitBackdropFilter: 'blur(20px)',
         borderBottomLeftRadius: "40px",
         borderBottomRightRadius: "40px",
         width: '100%'

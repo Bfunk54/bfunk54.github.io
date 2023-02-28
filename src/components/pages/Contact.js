@@ -50,7 +50,7 @@ export default function Contact() {
             justifyContent: "center",
             backgroundColor: "rgba(245, 245, 245, 0.5)",
             backdropFilter: "blur(20px)",
-            webkitBackdropFilter: "blur(20px)",
+            WebkitBackdropFilter: "blur(20px)",
             borderRadius: "20px",
           }}
           className="heading contact"
@@ -67,7 +67,7 @@ export default function Contact() {
                 height: "25px",
                 backgroundColor: "rgba(245, 245, 245, 0.4)",
                 backdropFilter: "blur(20px)",
-                webkitBackdropFilter: "blur(20px)",
+                WebkitBackdropFilter: "blur(20px)",
                 borderRadius: "20px",
               }}
               className="form-label labels"
@@ -86,7 +86,7 @@ export default function Contact() {
                 height: "25px",
                 backgroundColor: "rgba(245, 245, 245, 0.4)",
                 backdropFilter: "blur(20px)",
-                webkitBackdropFilter: "blur(20px)",
+                WebkitBackdropFilter: "blur(20px)",
                 borderRadius: "20px",
               }}
               className="form-label labels"
@@ -109,7 +109,7 @@ export default function Contact() {
                 height: "25px",
                 backgroundColor: "rgba(245, 245, 245, 0.4)",
                 backdropFilter: "blur(20px)",
-                webkitBackdropFilter: "blur(20px)",
+                WebkitBackdropFilter: "blur(20px)",
                 borderRadius: "20px",
               }}
               className="form-label labels"
@@ -132,7 +132,7 @@ export default function Contact() {
                 height: "25px",
                 backgroundColor: "rgba(245, 245, 245, 0.4)",
                 backdropFilter: "blur(20px)",
-                webkitBackdropFilter: "blur(20px)",
+                WebkitBackdropFilter: "blur(20px)",
                 borderRadius: "20px",
               }}
               className="form-label labels"
