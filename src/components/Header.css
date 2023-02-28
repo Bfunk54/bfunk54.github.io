@@ -19,6 +19,9 @@
     .navbar-brand {
         margin-right: -16px !important;
     }
+    .nav-item {
+        margin-right: 0px !important;
+    }
 }
 
 @media screen and (min-width: 576px) {
@@ -56,6 +59,7 @@
 
 @media screen and (max-height: 420px) {
     .nav-item {
-        margin-bottom: 22px;
+        margin-bottom: 14px;
+        margin-right: 0px !important;
     }
 }
