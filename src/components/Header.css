@@ -2,10 +2,8 @@
     border: none !important;
 }
 
-.navbar-nav {
-    width: 100%; 
-    display: flex; 
-    justify-content: space-evenly;
+li {
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -59,7 +57,7 @@
 
 @media screen and (max-height: 420px) {
     .nav-item {
-        margin-bottom: 14px;
+        margin-bottom: 12px;
         margin-right: 0px !important;
     }
     .logo {

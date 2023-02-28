@@ -76,14 +76,15 @@ function Nav() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul
-            style={{ }}
+            style={{ display: 'flex',
+            justifyContent: 'space-evenly', width: '100%'}}
             className="navbar-nav"
           >
             <li
               style={{
                 display: "flex",
                 justifyContent: "center",
-                marginRight: "10px",
+                marginRight: "10px"
               }}
               className="nav-item home navbar-toggler"
             >
