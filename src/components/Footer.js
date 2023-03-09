@@ -10,17 +10,18 @@ function TheFooter() {
         bottom: "5px",
         marginBottom: "10px",
         position: "sticky",
-        backgroundColor: "rgba(245, 245, 245, 0.5)",
+        backgroundColor: "rgba(245, 245, 245, 0.3)",
         backdropFilter: "blur(20px)",
         WebkitBackdropFilter: 'blur(20px)',
         display: 'flex',
         borderRadius: "20px",
         marginRight: "0px",
+        justifyContent: 'center'
       }}
       className="footer"
     >
-      <span className="text" style={{ fontSize: "16px", color: 'rgb(76, 76, 76)', alignSelf: 'center' }}>
-        Benjamin Fein - 2023
+      <span className="text" style={{ fontSize: "16px", color: 'rgb(76, 76, 76)', alignSelf: 'center', textAlign: 'center' }}>
+        Benjamin Fein <br/> 2023
       </span>
 
       <a

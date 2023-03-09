@@ -1,6 +1,6 @@
 import React from "react";
-import jate from "../img/portfolio/jate1.png";
-import shocase from "../img/portfolio/shocase1.png";
+import susan_hanssen from "../img/portfolio/susan_hanssen.png";
+import pilytix_ai_demo from "../img/portfolio/pilytix_ai_demo.png";
 import USPostalPrinting from "../img/portfolio/USPostalPrinting.png";
 import Image from "react-bootstrap/Image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -78,36 +78,37 @@ export default function Home({ currentPage, handlePageChange }) {
               style={{ marginBottom: "10px" }}
               className="col-md-6 col-lg-4 item zoom-on-hover"
             >
+              <a href="https://susanhanssen.com/">
+                <Image
+                  thumbnail={true}
+                  style={portfolioPreviewStyle}
+                  className="img-fluid image"
+                  src={susan_hanssen}
+                ></Image>
+              </a>
+            </div>
+            <div
+              style={{ marginBottom: "10px" }}
+              className="col-md-6 col-lg-4 item zoom-on-hover"
+            >
+              <a href="https://benfein.me/PILYTIX_AI_React_Demo/">
+                <Image
+                  thumbnail={true}
+                  className="img-fluid image"
+                  src={pilytix_ai_demo}
+                ></Image>
+              </a>
+            </div>
+            <div
+              style={{ marginBottom: "10px" }}
+              className="col-md-6 col-lg-4 item zoom-on-hover"
+            >
               <a href="https://us-postal-printing.herokuapp.com/">
                 <Image
                   thumbnail={true}
                   style={portfolioPreviewStyle}
                   className="img-fluid image"
                   src={USPostalPrinting}
-                ></Image>
-              </a>
-            </div>
-            <div
-              style={{ marginBottom: "10px" }}
-              className="col-md-6 col-lg-4 item zoom-on-hover"
-            >
-              <a href="https://shocase.herokuapp.com/">
-                <Image
-                  thumbnail={true}
-                  className="img-fluid image"
-                  src={shocase}
-                ></Image>
-              </a>
-            </div>
-            <div
-              style={{ marginBottom: "10px" }}
-              className="col-md-6 col-lg-4 item zoom-on-hover"
-            >
-              <a href="https://jate-anothertexteditor.herokuapp.com/">
-                <Image
-                  thumbnail={true}
-                  className="img-fluid image"
-                  src={jate}
                 ></Image>
               </a>
             </div>

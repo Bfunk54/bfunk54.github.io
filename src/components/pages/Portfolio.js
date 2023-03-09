@@ -1,19 +1,8 @@
-import { apply as applySpring, useSpring, a, interpolater } from "react-spring";
-import {
-  extend as applyThree,
-  Canvas,
-  useFrame,
-  useThree,
-} from "react-three-fiber";
-import React, {
-  useState,
-  useRef,
-  useEffect,
-  useCallback,
-  useMemo,
-} from "react";
+import React from "react";
 import Card from "react-bootstrap/Card";
 import USPostalPrinting from "../img/portfolio/USPostalPrinting.png";
+import susan_hanssen from "../img/portfolio/susan_hanssen.png";
+import pilytix_ai_demo from "../img/portfolio/pilytix_ai_demo.png";
 import jate from "../img/portfolio/jate1.png";
 import shocase from "../img/portfolio/shocase1.png";
 import foodfind from "../img/portfolio/foodfind1.png";
@@ -50,6 +39,72 @@ export default function Portfolio() {
             </div>
           </div>
           <div className="row">
+          <div
+              style={{ marginBottom: 26 }}
+              className="col-md-6 col-lg-4 project-sidebar-card"
+            >
+              <Card bg="light" border="secondary">
+                <a href="https://susanhanssen.com/">
+                  <InnerImageZoom
+                    className="img-fluid image scale-on-hover"
+                    hasSpacer={true}
+                    zoomType="hover"
+                    zoomPreload={true}
+                    fullscreenOnMobile={true}
+                    zoomScale={0.22}
+                    src={susan_hanssen}
+                    zoomSrc={susan_hanssen}
+                  />
+
+                  <Card.Header style={{ fontSize: "18px" }}>
+                    Susan Hanssen's Portfolio
+                  </Card.Header>
+                </a>
+                <Card.Body>
+                  <Card.Text style={{ fontSize: "14px" }}>
+                    This is a React.Js portfolio made for the artist Susan Hanssen.
+                    <br />
+                    <a href="https://github.com/Bfunk54/Susan_Hanssen">
+                      <img alt='github' style={{ height: 35, width: 35 }} src={Github} />
+                      Github Repo
+                    </a>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </div>
+            <div
+              style={{ marginBottom: 26 }}
+              className="col-md-6 col-lg-4 project-sidebar-card"
+            >
+              <Card bg="light" border="secondary">
+                <a href="https://benfein.me/PILYTIX_AI_React_Demo/">
+                  <InnerImageZoom
+                    className="img-fluid image scale-on-hover"
+                    hasSpacer={true}
+                    zoomType="hover"
+                    zoomPreload={true}
+                    fullscreenOnMobile={true}
+                    zoomScale={0.22}
+                    src={pilytix_ai_demo}
+                    zoomSrc={pilytix_ai_demo}
+                  />
+
+                  <Card.Header style={{ fontSize: "18px" }}>
+                    A React.Js Demo for PILYTIX.AI
+                  </Card.Header>
+                </a>
+                <Card.Body>
+                  <Card.Text style={{ fontSize: "14px" }}>
+                    This is a React.Js demo made for the company PILYTIX.AI
+                    <br />
+                    <a href="https://github.com/Bfunk54/PILYTIX_AI_React_Demo">
+                      <img alt='github' style={{ height: 35, width: 35 }} src={Github} />
+                      Github Repo
+                    </a>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </div>
             <div
               style={{ marginBottom: 26 }}
               className="col-md-6 col-lg-4 project-sidebar-card"
@@ -77,7 +132,7 @@ export default function Portfolio() {
                     company located in south Florida.
                     <br />
                     <a href="https://github.com/Mateo-Wallace/US-Postal-Printing">
-                      <img style={{ height: 35, width: 35 }} src={Github} />
+                      <img alt='github' style={{ height: 35, width: 35 }} src={Github} />
                       Github Repo
                     </a>
                   </Card.Text>
@@ -110,7 +165,7 @@ export default function Portfolio() {
                     favorite Anime and discover new ones using a MySQL database.
                     <br />
                     <a href="https://github.com/Bfunk54/ShoCase">
-                      <img style={{ height: 35, width: 35 }} src={Github} />
+                      <img alt='github' style={{ height: 35, width: 35 }} src={Github} />
                       Github Repo
                     </a>
                   </Card.Text>
@@ -144,7 +199,7 @@ export default function Portfolio() {
                     and interesting recipes.
                     <br />
                     <a href="https://github.com/harrj396/FoodFind">
-                      <img style={{ height: 35, width: 35 }} src={Github} />
+                      <img alt='github' style={{ height: 35, width: 35 }} src={Github} />
                       Github Repo
                     </a>
                   </Card.Text>
@@ -180,7 +235,7 @@ export default function Portfolio() {
                     a stand-alone application.
                     <br />
                     <a href="https://github.com/Bfunk54/JATE-JustAnotherTextEditor">
-                      <img style={{ height: 35, width: 35 }} src={Github} />
+                      <img alt='github' style={{ height: 35, width: 35 }} src={Github} />
                       Github Repo
                     </a>
                   </Card.Text>
@@ -214,7 +269,7 @@ export default function Portfolio() {
                     all routed to look good out on an html page!
                     <br />
                     <a href="https://github.com/Bfunk54/ProgrammersHeaven">
-                      <img style={{ height: 35, width: 35 }} src={Github} />
+                      <img alt='github' style={{ height: 35, width: 35 }} src={Github} />
                       Github Repo
                     </a>
                   </Card.Text>
@@ -248,7 +303,7 @@ export default function Portfolio() {
                     dynamically add and delete your notes in the database.
                     <br />
                     <a href="https://github.com/Bfunk54/NoteBuddy">
-                      <img style={{ height: 35, width: 35 }} src={Github} />
+                      <img alt='github' style={{ height: 35, width: 35 }} src={Github} />
                       Github Repo
                     </a>
                   </Card.Text>
@@ -281,7 +336,7 @@ export default function Portfolio() {
                     website.
                     <br />
                     <a href="https://github.com/Bfunk54/OneShop">
-                      <img style={{ height: 35, width: 35 }} src={Github} />
+                      <img alt='github' style={{ height: 35, width: 35 }} src={Github} />
                       Github Repo
                     </a>
                   </Card.Text>
@@ -315,7 +370,7 @@ export default function Portfolio() {
                     friends, friend counts and comment/reaction counts.
                     <br />
                     <a href="https://github.com/Bfunk54/MongoDB-SocialMediaAPI">
-                      <img style={{ height: 35, width: 35 }} src={Github} />
+                      <img alt='github' style={{ height: 35, width: 35 }} src={Github} />
                       Github Repo
                     </a>
                   </Card.Text>
@@ -348,7 +403,7 @@ export default function Portfolio() {
                     data as well as a five day forecast for any city you want!
                     <br />
                     <a href="https://github.com/Bfunk54/ZippyWeather">
-                      <img style={{ height: 35, width: 35 }} src={Github} />
+                      <img alt='github' style={{ height: 35, width: 35 }} src={Github} />
                       Github Repo
                     </a>
                   </Card.Text>

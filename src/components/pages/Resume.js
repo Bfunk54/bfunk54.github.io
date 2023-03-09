@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css'
-import ResumeImgLarge from '../img/resume/BenjaminFeinResume-Large.png'
+import ResumeImg from '../img/resume/BenjaminFeinResume.png'
 import Resume from '../img/resume/BenjaminFeinResume.pdf'
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
@@ -20,8 +20,9 @@ export default function Blog() {
         <div className='other' style={{display: 'flex', justifyContent: 'center', paddingBottom: '40px'}}>
         <OverlayTrigger
       placement="top"
-      delay={{ show: 200, hide: 400 }}
+      delay={{ show: 100, hide: 400 }}
       overlay={renderTooltip}
+      open={true}
     >
         <a href={Resume} download='BenjaminFeinResume' target='blank'>
         <InnerImageZoom height= {525} 
@@ -32,8 +33,8 @@ export default function Blog() {
             zoomPreload={true}
             fullscreenOnMobile={true} 
             zoomScale={.22}
-            src={ResumeImgLarge} 
-            zoomSrc={ResumeImgLarge}/>
+            src={ResumeImg} 
+            zoomSrc={ResumeImg}/>
             </a>
         </OverlayTrigger>
         </div>
